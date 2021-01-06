@@ -1,0 +1,1122 @@
+DEBUG - 2020-12-31 00:13:12 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:13:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:13:12 --> Total execution time: 0.0422
+DEBUG - 2020-12-31 00:13:16 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:13:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:13:16 --> Total execution time: 0.0417
+DEBUG - 2020-12-31 00:13:25 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:13:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:13:25 --> Total execution time: 0.0432
+DEBUG - 2020-12-31 00:13:45 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:13:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 00:13:45 --> Query error: Table 'wishlist.users' doesn't exist - Invalid query: INSERT INTO `users` (`name`, `email`, `password`, `address`, `tel`, `created_at`, `updated_at`) VALUES ('Tharusha', 'tharushaishan26@gmail.com', '$2y$10$pzHmjKqsxmumD/1bMGQqbe.XfinHz1sE61G3s.hKrFxi.qOVRn8dC', '829', '0712959395', '2020-12-31 12:12:45', '2020-12-31 12:12:45')
+DEBUG - 2020-12-31 00:14:09 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:14:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:14:09 --> Total execution time: 0.0584
+DEBUG - 2020-12-31 00:14:20 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:14:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:14:20 --> Total execution time: 0.1171
+DEBUG - 2020-12-31 00:18:34 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:18:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:18:34 --> Total execution time: 0.0577
+DEBUG - 2020-12-31 00:18:40 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:18:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:18:40 --> Total execution time: 0.0496
+DEBUG - 2020-12-31 00:18:47 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:18:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:18:47 --> Total execution time: 0.0356
+DEBUG - 2020-12-31 00:18:50 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:18:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:18:50 --> Total execution time: 0.0397
+DEBUG - 2020-12-31 00:18:53 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:18:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:18:53 --> Total execution time: 0.0556
+DEBUG - 2020-12-31 00:29:10 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:29:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:29:10 --> Total execution time: 0.0388
+DEBUG - 2020-12-31 00:29:14 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:29:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:29:14 --> Total execution time: 0.0457
+DEBUG - 2020-12-31 00:29:16 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:29:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:29:16 --> Total execution time: 0.0502
+DEBUG - 2020-12-31 00:29:18 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:29:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:29:18 --> Total execution time: 0.0312
+DEBUG - 2020-12-31 00:29:29 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:29:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:29:29 --> Total execution time: 0.0477
+DEBUG - 2020-12-31 00:30:46 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:30:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:30:46 --> Total execution time: 0.0511
+DEBUG - 2020-12-31 00:30:52 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:30:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:30:52 --> Total execution time: 0.0421
+DEBUG - 2020-12-31 00:30:55 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:30:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:30:55 --> Total execution time: 0.0513
+DEBUG - 2020-12-31 00:30:57 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:30:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:30:57 --> Total execution time: 0.0444
+DEBUG - 2020-12-31 00:31:00 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:31:00 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 00:31:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:31:00 --> Total execution time: 0.0430
+DEBUG - 2020-12-31 00:31:06 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:31:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:31:06 --> Total execution time: 0.0524
+DEBUG - 2020-12-31 00:31:08 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:31:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:31:08 --> Total execution time: 0.0518
+DEBUG - 2020-12-31 00:31:10 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:31:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:31:10 --> Total execution time: 0.0399
+DEBUG - 2020-12-31 00:31:15 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:31:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:31:15 --> Total execution time: 0.0410
+DEBUG - 2020-12-31 00:31:32 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:31:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:31:32 --> Total execution time: 0.0454
+DEBUG - 2020-12-31 00:31:34 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:31:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:31:34 --> Total execution time: 0.0303
+DEBUG - 2020-12-31 00:31:46 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:31:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:31:46 --> Total execution time: 0.0446
+DEBUG - 2020-12-31 00:32:18 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:32:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:32:18 --> Total execution time: 0.0585
+DEBUG - 2020-12-31 00:33:46 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:33:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:33:46 --> Total execution time: 0.0567
+DEBUG - 2020-12-31 00:33:57 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:33:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:33:57 --> Total execution time: 0.0397
+DEBUG - 2020-12-31 00:35:13 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:35:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:35:13 --> Total execution time: 0.0595
+DEBUG - 2020-12-31 00:35:17 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:35:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:35:17 --> Total execution time: 0.0372
+DEBUG - 2020-12-31 00:35:20 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:35:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:35:20 --> Total execution time: 0.0529
+DEBUG - 2020-12-31 00:35:24 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:35:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:35:25 --> Total execution time: 0.0408
+DEBUG - 2020-12-31 00:36:33 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:36:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:36:33 --> Total execution time: 0.0585
+DEBUG - 2020-12-31 00:36:40 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:36:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:36:40 --> Total execution time: 0.1288
+DEBUG - 2020-12-31 00:36:54 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:36:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:36:54 --> Total execution time: 0.1390
+DEBUG - 2020-12-31 00:36:58 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:36:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:36:58 --> Total execution time: 0.1463
+DEBUG - 2020-12-31 00:37:37 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:37:37 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 00:37:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:37:37 --> Total execution time: 0.0396
+DEBUG - 2020-12-31 00:37:45 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:37:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:37:45 --> Total execution time: 0.0581
+DEBUG - 2020-12-31 00:37:53 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:37:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:37:54 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:37:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 00:37:54 --> 404 Page Not Found: Backbone/index
+DEBUG - 2020-12-31 00:38:56 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:38:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:38:56 --> Total execution time: 0.0613
+DEBUG - 2020-12-31 00:39:01 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:39:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:39:01 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:39:01 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 00:39:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:39:01 --> Total execution time: 0.0468
+DEBUG - 2020-12-31 00:39:10 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:39:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:39:10 --> Total execution time: 0.0537
+DEBUG - 2020-12-31 00:39:12 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:39:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:39:12 --> Total execution time: 0.0388
+DEBUG - 2020-12-31 00:39:17 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:39:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:39:18 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:39:18 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 00:39:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:39:18 --> Total execution time: 0.0523
+DEBUG - 2020-12-31 00:40:12 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:40:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:40:12 --> Total execution time: 0.0979
+DEBUG - 2020-12-31 00:40:16 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:40:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:40:16 --> Total execution time: 0.0688
+DEBUG - 2020-12-31 00:40:20 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:40:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:40:20 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:40:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:40:20 --> Total execution time: 0.0777
+DEBUG - 2020-12-31 00:40:26 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:40:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:40:26 --> Total execution time: 0.0373
+DEBUG - 2020-12-31 00:40:43 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:40:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:40:43 --> Total execution time: 0.0638
+DEBUG - 2020-12-31 00:40:49 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:40:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:40:49 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:40:49 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 00:40:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:40:49 --> Total execution time: 0.0363
+DEBUG - 2020-12-31 00:40:59 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 00:40:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 00:40:59 --> Total execution time: 0.0653
+DEBUG - 2020-12-31 01:05:20 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:05:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:05:20 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:05:20 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:05:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:05:20 --> Total execution time: 0.0448
+DEBUG - 2020-12-31 01:05:20 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:05:20 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:05:20 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:05:20 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:05:20 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:05:20 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:05:20 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:05:20 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:05:20 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:05:20 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:05:20 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:05:20 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:06:36 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:06:36 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:06:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:06:36 --> Total execution time: 0.0521
+DEBUG - 2020-12-31 01:06:36 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:06:36 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:06:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:06:36 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:06:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:06:36 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:06:36 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:06:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:06:36 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:06:36 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:06:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:06:36 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:06:55 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:06:55 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:06:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:06:55 --> Total execution time: 0.0372
+DEBUG - 2020-12-31 01:06:55 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:06:55 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:06:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:06:55 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:06:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:06:55 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:06:55 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:06:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:06:55 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:06:55 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:06:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:06:55 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:07:05 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:07:05 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:07:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:07:05 --> Total execution time: 0.0596
+DEBUG - 2020-12-31 01:07:05 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:07:05 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:07:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:07:05 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:07:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:07:05 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:07:05 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:07:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:07:05 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:07:05 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:07:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:07:05 --> 404 Page Not Found: Assets/js
+DEBUG - 2020-12-31 01:09:44 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:09:44 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:09:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:09:44 --> Total execution time: 0.0699
+DEBUG - 2020-12-31 01:10:10 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:10:10 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:10:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:10:10 --> Total execution time: 0.0556
+DEBUG - 2020-12-31 01:10:31 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:10:31 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:10:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:10:31 --> Total execution time: 0.0751
+DEBUG - 2020-12-31 01:10:35 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:10:35 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:10:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:10:35 --> Total execution time: 0.0525
+DEBUG - 2020-12-31 01:10:56 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:10:56 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:10:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:10:56 --> Total execution time: 0.0532
+DEBUG - 2020-12-31 01:12:01 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:12:01 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:12:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:12:01 --> Total execution time: 0.0601
+DEBUG - 2020-12-31 01:12:03 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:12:03 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:12:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:12:03 --> Total execution time: 0.0324
+DEBUG - 2020-12-31 01:12:07 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:12:07 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:12:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:12:07 --> Total execution time: 0.0297
+DEBUG - 2020-12-31 01:12:13 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:12:13 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:12:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:12:13 --> Total execution time: 0.0522
+DEBUG - 2020-12-31 01:12:34 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:12:34 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:12:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:12:34 --> Total execution time: 0.0512
+DEBUG - 2020-12-31 01:12:43 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:12:43 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:12:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:12:43 --> Total execution time: 0.0537
+DEBUG - 2020-12-31 01:12:54 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:12:54 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:12:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:12:54 --> Total execution time: 0.0441
+DEBUG - 2020-12-31 01:13:24 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:13:24 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:13:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:13:24 --> Total execution time: 0.0503
+DEBUG - 2020-12-31 01:13:45 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:13:45 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:13:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:13:45 --> Total execution time: 0.0470
+DEBUG - 2020-12-31 01:20:16 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:20:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:20:16 --> Total execution time: 0.0405
+DEBUG - 2020-12-31 01:48:49 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:48:49 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:48:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:48:49 --> Total execution time: 0.0629
+DEBUG - 2020-12-31 01:48:54 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:48:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:48:54 --> Total execution time: 0.0428
+DEBUG - 2020-12-31 01:51:32 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:51:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:51:32 --> Total execution time: 0.0432
+DEBUG - 2020-12-31 01:51:35 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:51:35 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:51:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:51:35 --> Total execution time: 0.0326
+DEBUG - 2020-12-31 01:51:54 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:51:54 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:51:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:51:54 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:51:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:51:54 --> Total execution time: 0.0365
+DEBUG - 2020-12-31 01:52:40 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:52:40 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:52:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:52:41 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:52:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:52:41 --> Total execution time: 0.0570
+DEBUG - 2020-12-31 01:52:58 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:52:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:52:58 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:52:58 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:52:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:52:58 --> Total execution time: 0.0426
+DEBUG - 2020-12-31 01:53:47 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:53:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:53:47 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:53:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:53:47 --> Total execution time: 0.0443
+DEBUG - 2020-12-31 01:53:49 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:53:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:53:49 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:53:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:53:49 --> Total execution time: 0.0479
+DEBUG - 2020-12-31 01:53:52 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:53:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:53:52 --> Total execution time: 0.0567
+DEBUG - 2020-12-31 01:53:58 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:53:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:53:58 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:53:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:53:58 --> Total execution time: 0.0314
+DEBUG - 2020-12-31 01:54:17 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:54:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:54:17 --> Total execution time: 0.0564
+DEBUG - 2020-12-31 01:54:25 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:54:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:54:25 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:54:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:54:25 --> Total execution time: 0.0611
+DEBUG - 2020-12-31 01:54:35 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:54:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:54:35 --> Total execution time: 0.0643
+DEBUG - 2020-12-31 01:54:39 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:54:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:54:39 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:54:39 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:54:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:54:39 --> Total execution time: 0.0641
+DEBUG - 2020-12-31 01:57:28 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:57:28 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:57:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 01:57:28 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\2017296\WishList\application\views\backbone.php 22
+DEBUG - 2020-12-31 01:57:28 --> Total execution time: 0.0405
+DEBUG - 2020-12-31 01:59:04 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:59:04 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:59:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:59:04 --> Total execution time: 0.0575
+DEBUG - 2020-12-31 01:59:44 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 01:59:44 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 01:59:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 01:59:44 --> Total execution time: 0.0437
+DEBUG - 2020-12-31 02:00:39 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:00:39 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:00:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:00:39 --> Total execution time: 0.0473
+DEBUG - 2020-12-31 02:01:02 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:01:02 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:01:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:01:02 --> Total execution time: 0.0523
+DEBUG - 2020-12-31 02:03:57 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:03:57 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:03:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:03:57 --> Total execution time: 0.0542
+DEBUG - 2020-12-31 02:03:59 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:03:59 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:03:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:03:59 --> Total execution time: 0.0588
+DEBUG - 2020-12-31 02:04:51 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:04:51 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:04:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:04:51 --> Total execution time: 0.0486
+DEBUG - 2020-12-31 02:04:53 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:04:53 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:04:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:04:53 --> Total execution time: 0.0510
+DEBUG - 2020-12-31 02:04:55 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:04:55 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:04:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:04:55 --> Total execution time: 0.0471
+DEBUG - 2020-12-31 02:04:56 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:04:56 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:04:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:04:56 --> Total execution time: 0.0325
+DEBUG - 2020-12-31 02:05:01 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:05:01 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:05:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:05:01 --> Total execution time: 0.0481
+DEBUG - 2020-12-31 02:05:02 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:05:02 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:05:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:05:02 --> Total execution time: 0.0445
+DEBUG - 2020-12-31 02:05:04 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:05:04 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:05:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:05:04 --> Total execution time: 0.0476
+DEBUG - 2020-12-31 02:05:43 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:05:43 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:05:43 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 02:05:43 --> Severity: Warning --> session_destroy(): Trying to destroy uninitialized session C:\xampp\htdocs\2017296\WishList\system\libraries\Session\Session.php 704
+ERROR - 2020-12-31 02:05:43 --> Severity: Warning --> session_destroy(): Trying to destroy uninitialized session C:\xampp\htdocs\2017296\WishList\system\libraries\Session\Session.php 704
+DEBUG - 2020-12-31 02:05:43 --> Total execution time: 0.0561
+DEBUG - 2020-12-31 02:05:45 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:05:45 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:05:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:05:45 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:05:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:05:45 --> Total execution time: 0.0512
+DEBUG - 2020-12-31 02:06:29 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:06:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:06:29 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:06:29 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:06:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:06:29 --> Total execution time: 0.0557
+DEBUG - 2020-12-31 02:06:58 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:06:58 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:06:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:06:58 --> Total execution time: 0.0460
+DEBUG - 2020-12-31 02:06:59 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:06:59 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:06:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:06:59 --> Total execution time: 0.0319
+DEBUG - 2020-12-31 02:07:00 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:07:00 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:07:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:07:00 --> Total execution time: 0.0573
+DEBUG - 2020-12-31 02:07:06 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:07:06 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:07:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:07:06 --> Total execution time: 0.0542
+DEBUG - 2020-12-31 02:07:07 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:07:07 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:07:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:07:07 --> Total execution time: 0.0554
+DEBUG - 2020-12-31 02:07:42 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:07:42 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:07:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:07:42 --> Total execution time: 0.0348
+DEBUG - 2020-12-31 02:07:43 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:07:43 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:07:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:07:43 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:07:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:07:43 --> Total execution time: 0.0353
+DEBUG - 2020-12-31 02:07:50 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:07:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:07:50 --> Total execution time: 0.0490
+DEBUG - 2020-12-31 02:07:58 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:07:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:07:58 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:07:58 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:07:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:07:58 --> Total execution time: 0.0568
+DEBUG - 2020-12-31 02:08:01 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:08:01 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:08:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:08:01 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:08:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:08:02 --> Total execution time: 0.0511
+DEBUG - 2020-12-31 02:08:12 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:08:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:08:12 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:08:12 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:08:12 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 02:08:12 --> Severity: Warning --> session_destroy(): Trying to destroy uninitialized session C:\xampp\htdocs\2017296\WishList\system\libraries\Session\Session.php 704
+ERROR - 2020-12-31 02:08:12 --> Severity: Warning --> session_destroy(): Trying to destroy uninitialized session C:\xampp\htdocs\2017296\WishList\system\libraries\Session\Session.php 704
+DEBUG - 2020-12-31 02:08:12 --> Total execution time: 0.0591
+DEBUG - 2020-12-31 02:08:17 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:08:17 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:08:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:08:17 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:08:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:08:17 --> Total execution time: 0.0477
+DEBUG - 2020-12-31 02:08:20 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:08:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:08:20 --> Total execution time: 0.0346
+DEBUG - 2020-12-31 02:11:07 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:11:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:11:07 --> Total execution time: 0.0475
+DEBUG - 2020-12-31 02:11:11 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:11:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:11:11 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:11:11 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:11:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:11:11 --> Total execution time: 0.0314
+DEBUG - 2020-12-31 02:12:56 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:12:56 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:12:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:12:56 --> Total execution time: 0.0558
+DEBUG - 2020-12-31 02:14:06 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:14:06 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:14:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:14:06 --> Total execution time: 0.0480
+DEBUG - 2020-12-31 02:14:12 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:14:12 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:14:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:14:12 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:14:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:14:13 --> Total execution time: 0.0476
+DEBUG - 2020-12-31 02:14:24 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:14:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:14:24 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:14:24 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:14:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:14:24 --> Total execution time: 0.0545
+DEBUG - 2020-12-31 02:14:38 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:14:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:14:38 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:14:38 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:14:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:14:38 --> Total execution time: 0.0473
+DEBUG - 2020-12-31 02:14:44 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:14:44 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:14:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:14:44 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:14:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:14:44 --> Total execution time: 0.0489
+DEBUG - 2020-12-31 02:14:49 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:14:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:14:49 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:14:49 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 02:14:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:14:49 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:14:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:14:49 --> Total execution time: 0.0286
+DEBUG - 2020-12-31 02:24:37 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 02:24:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 02:24:37 --> Total execution time: 0.0715
+DEBUG - 2020-12-31 18:54:04 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 18:54:04 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 18:54:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 18:54:04 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 18:54:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 18:54:04 --> Total execution time: 0.0705
+DEBUG - 2020-12-31 18:54:20 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 18:54:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 18:54:20 --> Total execution time: 0.0582
+DEBUG - 2020-12-31 18:54:25 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 18:54:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 18:54:25 --> Total execution time: 0.0565
+DEBUG - 2020-12-31 18:56:47 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 18:56:48 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 18:56:48 --> Severity: Notice --> Undefined variable: user_email C:\xampp\htdocs\2017296\WishList\application\views\login.php 67
+ERROR - 2020-12-31 18:56:48 --> Severity: Notice --> Undefined variable: user_code C:\xampp\htdocs\2017296\WishList\application\views\login.php 67
+DEBUG - 2020-12-31 18:56:48 --> Total execution time: 0.0444
+DEBUG - 2020-12-31 18:57:44 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 18:57:44 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 18:57:44 --> Severity: Notice --> Undefined variable: user_email C:\xampp\htdocs\2017296\WishList\application\views\login.php 67
+ERROR - 2020-12-31 18:57:44 --> Severity: Notice --> Undefined variable: user_code C:\xampp\htdocs\2017296\WishList\application\views\login.php 67
+DEBUG - 2020-12-31 18:57:44 --> Total execution time: 0.0521
+DEBUG - 2020-12-31 19:03:00 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:03:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:03:00 --> Total execution time: 0.0389
+DEBUG - 2020-12-31 19:10:06 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:10:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:10:06 --> Total execution time: 0.0510
+DEBUG - 2020-12-31 19:10:16 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:10:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:10:16 --> Total execution time: 0.0841
+DEBUG - 2020-12-31 19:10:17 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:10:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:10:17 --> Total execution time: 0.0485
+DEBUG - 2020-12-31 19:10:28 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:10:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:10:28 --> Total execution time: 0.0468
+DEBUG - 2020-12-31 19:10:53 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:10:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:10:53 --> Total execution time: 0.0575
+DEBUG - 2020-12-31 19:10:54 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:10:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:10:54 --> Total execution time: 0.0323
+DEBUG - 2020-12-31 19:11:25 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:11:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:11:25 --> Total execution time: 0.0533
+DEBUG - 2020-12-31 19:13:44 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:13:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:13:44 --> Total execution time: 0.0451
+DEBUG - 2020-12-31 19:15:31 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:15:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:15:31 --> Total execution time: 0.0343
+DEBUG - 2020-12-31 19:15:43 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:15:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:15:43 --> Total execution time: 0.0535
+DEBUG - 2020-12-31 19:19:08 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:19:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:19:08 --> Total execution time: 0.0531
+DEBUG - 2020-12-31 19:19:22 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:19:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:19:22 --> Total execution time: 0.0528
+DEBUG - 2020-12-31 19:19:23 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:19:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:19:23 --> Total execution time: 0.0461
+DEBUG - 2020-12-31 19:19:41 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:19:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:19:41 --> Total execution time: 0.0537
+DEBUG - 2020-12-31 19:19:42 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:19:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:19:42 --> Total execution time: 0.0524
+DEBUG - 2020-12-31 19:19:52 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:19:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:19:52 --> Total execution time: 0.0452
+DEBUG - 2020-12-31 19:19:59 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:19:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:19:59 --> Total execution time: 0.0474
+DEBUG - 2020-12-31 19:20:46 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:20:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:20:47 --> Total execution time: 0.0473
+DEBUG - 2020-12-31 19:30:29 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:30:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:30:29 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:30:29 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:30:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:30:29 --> Total execution time: 0.0694
+DEBUG - 2020-12-31 19:30:29 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:30:29 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 19:30:29 --> 404 Page Not Found: Indexphp/api
+DEBUG - 2020-12-31 19:30:45 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:30:45 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:30:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:30:45 --> Total execution time: 0.0823
+DEBUG - 2020-12-31 19:30:45 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:30:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 19:30:45 --> 404 Page Not Found: Indexphp/api
+DEBUG - 2020-12-31 19:30:54 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:30:54 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:30:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:30:54 --> Total execution time: 0.0819
+DEBUG - 2020-12-31 19:30:54 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:30:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 19:30:54 --> 404 Page Not Found: Indexphp/api
+DEBUG - 2020-12-31 19:31:07 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:31:07 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:31:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:31:07 --> Total execution time: 0.0906
+DEBUG - 2020-12-31 19:31:08 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:31:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 19:31:08 --> 404 Page Not Found: Indexphp/api
+DEBUG - 2020-12-31 19:31:54 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:31:54 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:31:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:31:54 --> Total execution time: 0.0855
+DEBUG - 2020-12-31 19:31:55 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:31:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 19:31:55 --> 404 Page Not Found: Indexphp/api
+DEBUG - 2020-12-31 19:32:08 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:32:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 19:32:08 --> 404 Page Not Found: Indexphp/api
+DEBUG - 2020-12-31 19:33:38 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:33:38 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:33:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:33:38 --> Total execution time: 0.0672
+DEBUG - 2020-12-31 19:33:39 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:33:39 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 19:33:39 --> 404 Page Not Found: Indexphp/api
+DEBUG - 2020-12-31 19:33:42 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:33:42 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:33:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:33:42 --> Total execution time: 0.0492
+DEBUG - 2020-12-31 19:33:42 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:33:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 19:33:42 --> 404 Page Not Found: Indexphp/api
+DEBUG - 2020-12-31 19:34:16 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:34:16 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:34:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:34:16 --> Total execution time: 0.0637
+DEBUG - 2020-12-31 19:34:44 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:34:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:34:44 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 19:34:44 --> Total execution time: 0.0894
+DEBUG - 2020-12-31 19:35:20 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:35:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:35:20 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 19:35:20 --> Total execution time: 0.0717
+DEBUG - 2020-12-31 19:35:26 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:35:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:35:26 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 19:35:26 --> Total execution time: 0.0593
+DEBUG - 2020-12-31 19:35:41 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:35:41 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:35:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:35:41 --> Total execution time: 0.0939
+DEBUG - 2020-12-31 19:36:31 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:36:31 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:36:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:36:31 --> Total execution time: 0.0639
+DEBUG - 2020-12-31 19:36:34 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:36:34 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:36:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:36:34 --> Total execution time: 0.0539
+DEBUG - 2020-12-31 19:37:04 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:37:04 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:37:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:37:04 --> Total execution time: 0.0867
+DEBUG - 2020-12-31 19:37:31 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:37:31 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:37:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:37:31 --> Total execution time: 0.0817
+DEBUG - 2020-12-31 19:38:33 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:38:33 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:38:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:38:34 --> Total execution time: 1.0989
+DEBUG - 2020-12-31 19:38:39 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:38:39 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:38:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:38:39 --> Total execution time: 0.3734
+DEBUG - 2020-12-31 19:40:51 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:40:51 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:40:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:40:52 --> Total execution time: 0.8908
+DEBUG - 2020-12-31 19:40:55 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:40:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:40:56 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 19:40:56 --> Total execution time: 0.7488
+DEBUG - 2020-12-31 19:41:00 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:41:00 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:41:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:41:00 --> Total execution time: 0.5173
+DEBUG - 2020-12-31 19:41:02 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:41:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:41:03 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 19:41:03 --> Total execution time: 0.5256
+DEBUG - 2020-12-31 19:42:17 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:42:17 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:42:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:42:17 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:42:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:42:17 --> Total execution time: 0.0509
+DEBUG - 2020-12-31 19:42:50 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:42:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:42:50 --> Total execution time: 0.0590
+DEBUG - 2020-12-31 19:43:21 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:43:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:43:21 --> Total execution time: 0.0566
+DEBUG - 2020-12-31 19:43:27 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:43:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:43:27 --> Total execution time: 0.0444
+DEBUG - 2020-12-31 19:46:01 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:46:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:46:01 --> Total execution time: 0.0388
+DEBUG - 2020-12-31 19:46:32 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:46:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:46:32 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:46:32 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:46:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:46:32 --> Total execution time: 0.0519
+DEBUG - 2020-12-31 19:46:33 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:46:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:46:33 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 19:46:33 --> Total execution time: 0.0674
+DEBUG - 2020-12-31 19:46:39 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:46:39 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:46:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:46:39 --> Total execution time: 0.0502
+DEBUG - 2020-12-31 19:46:39 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:46:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:46:39 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 19:46:39 --> Total execution time: 0.0694
+DEBUG - 2020-12-31 19:47:04 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:47:04 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 19:47:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:47:04 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 19:47:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 19:47:04 --> Total execution time: 0.0534
+DEBUG - 2020-12-31 21:56:56 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 21:56:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 21:56:56 --> Severity: error --> Exception: Class 'Restserver\Libraries\REST_Controller' not found C:\xampp\htdocs\2017296\WishList\application\controllers\api\Authentication.php 4
+DEBUG - 2020-12-31 22:07:33 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:07:33 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 22:07:33 --> Severity: error --> Exception: Class 'Restserver\Libraries\REST_Controller' not found C:\xampp\htdocs\2017296\WishList\application\controllers\api\Authentication.php 4
+DEBUG - 2020-12-31 22:08:28 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:08:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:08:28 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+ERROR - 2020-12-31 22:08:28 --> Severity: Warning --> call_user_func_array() expects parameter 1 to be a valid callback, class 'Authentication' does not have a method 'index_get' C:\xampp\htdocs\2017296\WishList\application\libraries\REST_Controller.php 743
+DEBUG - 2020-12-31 22:08:28 --> Total execution time: 0.1196
+DEBUG - 2020-12-31 22:08:56 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:08:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:08:56 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+ERROR - 2020-12-31 22:08:56 --> Severity: Warning --> call_user_func_array() expects parameter 1 to be a valid callback, class 'Authentication' does not have a method 'index_get' C:\xampp\htdocs\2017296\WishList\application\libraries\REST_Controller.php 743
+DEBUG - 2020-12-31 22:08:56 --> Total execution time: 0.0591
+DEBUG - 2020-12-31 22:09:16 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:09:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:09:16 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+ERROR - 2020-12-31 22:09:16 --> Severity: Warning --> call_user_func_array() expects parameter 1 to be a valid callback, class 'Example' does not have a method 'index_get' C:\xampp\htdocs\2017296\WishList\application\libraries\REST_Controller.php 743
+DEBUG - 2020-12-31 22:09:16 --> Total execution time: 0.0362
+DEBUG - 2020-12-31 22:09:49 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:09:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:09:49 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+ERROR - 2020-12-31 22:09:49 --> Severity: Warning --> call_user_func_array() expects parameter 1 to be a valid callback, class 'User' does not have a method 'index_get' C:\xampp\htdocs\2017296\WishList\application\libraries\REST_Controller.php 743
+DEBUG - 2020-12-31 22:09:49 --> Total execution time: 0.0544
+DEBUG - 2020-12-31 22:09:57 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:09:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:09:57 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+ERROR - 2020-12-31 22:09:57 --> Severity: Warning --> call_user_func_array() expects parameter 1 to be a valid callback, class 'User' does not have a method 'index_get' C:\xampp\htdocs\2017296\WishList\application\libraries\REST_Controller.php 743
+DEBUG - 2020-12-31 22:09:57 --> Total execution time: 0.0464
+DEBUG - 2020-12-31 22:10:10 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:10:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:10:10 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:10:10 --> Total execution time: 0.0420
+DEBUG - 2020-12-31 22:10:16 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:10:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:10:16 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:10:16 --> Total execution time: 0.0533
+DEBUG - 2020-12-31 22:10:29 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:10:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:10:29 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+ERROR - 2020-12-31 22:10:29 --> Severity: Warning --> call_user_func_array() expects parameter 1 to be a valid callback, class 'Authentication' does not have a method 'index_get' C:\xampp\htdocs\2017296\WishList\application\libraries\REST_Controller.php 743
+DEBUG - 2020-12-31 22:10:29 --> Total execution time: 0.0340
+DEBUG - 2020-12-31 22:10:36 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:10:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:10:36 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+ERROR - 2020-12-31 22:10:36 --> Severity: Warning --> call_user_func_array() expects parameter 1 to be a valid callback, class 'Authentication' does not have a method 'index_get' C:\xampp\htdocs\2017296\WishList\application\libraries\REST_Controller.php 743
+DEBUG - 2020-12-31 22:10:36 --> Total execution time: 0.0553
+DEBUG - 2020-12-31 22:10:47 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:10:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:10:47 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+ERROR - 2020-12-31 22:10:47 --> Severity: Warning --> call_user_func_array() expects parameter 1 to be a valid callback, class 'Authentication' does not have a method 'index_get' C:\xampp\htdocs\2017296\WishList\application\libraries\REST_Controller.php 743
+DEBUG - 2020-12-31 22:10:47 --> Total execution time: 0.0667
+DEBUG - 2020-12-31 22:11:29 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:11:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:11:29 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+ERROR - 2020-12-31 22:11:29 --> Severity: Warning --> call_user_func_array() expects parameter 1 to be a valid callback, class 'Authentication' does not have a method 'index_get' C:\xampp\htdocs\2017296\WishList\application\libraries\REST_Controller.php 743
+DEBUG - 2020-12-31 22:11:29 --> Total execution time: 0.0406
+DEBUG - 2020-12-31 22:11:46 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:11:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:11:46 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+ERROR - 2020-12-31 22:11:46 --> Severity: Warning --> call_user_func_array() expects parameter 1 to be a valid callback, class 'User' does not have a method 'index_get' C:\xampp\htdocs\2017296\WishList\application\libraries\REST_Controller.php 743
+DEBUG - 2020-12-31 22:11:46 --> Total execution time: 0.0391
+DEBUG - 2020-12-31 22:11:55 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:11:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:11:55 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:11:55 --> Total execution time: 0.0603
+DEBUG - 2020-12-31 22:12:03 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:12:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:12:03 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+ERROR - 2020-12-31 22:12:03 --> Severity: Warning --> call_user_func_array() expects parameter 1 to be a valid callback, class 'Authentication' does not have a method 'index_get' C:\xampp\htdocs\2017296\WishList\application\libraries\REST_Controller.php 743
+DEBUG - 2020-12-31 22:12:03 --> Total execution time: 0.0407
+DEBUG - 2020-12-31 22:12:13 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:12:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:12:13 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+ERROR - 2020-12-31 22:12:13 --> Severity: Warning --> call_user_func_array() expects parameter 1 to be a valid callback, class 'Authentication' does not have a method 'index_get' C:\xampp\htdocs\2017296\WishList\application\libraries\REST_Controller.php 743
+DEBUG - 2020-12-31 22:12:13 --> Total execution time: 0.0420
+DEBUG - 2020-12-31 22:21:45 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:21:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:21:45 --> Total execution time: 0.0447
+DEBUG - 2020-12-31 22:22:21 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:22:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:22:21 --> Total execution time: 0.0655
+DEBUG - 2020-12-31 22:22:23 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:22:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:22:23 --> Total execution time: 0.0429
+DEBUG - 2020-12-31 22:22:45 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:22:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:22:45 --> Total execution time: 0.0507
+DEBUG - 2020-12-31 22:23:04 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:23:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:23:04 --> Total execution time: 0.0449
+DEBUG - 2020-12-31 22:23:47 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:23:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:23:47 --> Total execution time: 0.0579
+DEBUG - 2020-12-31 22:23:50 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:23:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:23:50 --> Total execution time: 0.0573
+DEBUG - 2020-12-31 22:24:37 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:24:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:24:37 --> Total execution time: 0.0583
+DEBUG - 2020-12-31 22:24:46 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:24:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:24:46 --> Total execution time: 0.0696
+DEBUG - 2020-12-31 22:24:56 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:24:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:24:56 --> Total execution time: 0.0556
+DEBUG - 2020-12-31 22:25:33 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:25:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:25:33 --> Total execution time: 0.0325
+DEBUG - 2020-12-31 22:26:26 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:26:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:26:26 --> Total execution time: 0.0446
+DEBUG - 2020-12-31 22:26:51 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:26:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:26:51 --> Total execution time: 0.0418
+DEBUG - 2020-12-31 22:27:01 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:27:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:27:01 --> Total execution time: 0.0499
+DEBUG - 2020-12-31 22:30:40 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:30:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:30:40 --> Total execution time: 0.0300
+DEBUG - 2020-12-31 22:30:52 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:30:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:30:53 --> Total execution time: 0.0443
+DEBUG - 2020-12-31 22:30:56 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:30:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:30:56 --> Total execution time: 0.0352
+DEBUG - 2020-12-31 22:33:14 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:33:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:33:14 --> Total execution time: 0.0390
+DEBUG - 2020-12-31 22:33:57 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:33:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:33:57 --> Total execution time: 0.0530
+DEBUG - 2020-12-31 22:34:31 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:34:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:34:31 --> Total execution time: 0.0402
+DEBUG - 2020-12-31 22:35:02 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:35:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:35:02 --> Total execution time: 0.0517
+DEBUG - 2020-12-31 22:38:38 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:38:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:38:38 --> Total execution time: 0.0596
+DEBUG - 2020-12-31 22:39:44 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:39:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:39:44 --> Total execution time: 0.0412
+DEBUG - 2020-12-31 22:39:47 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:39:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:39:47 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:39:47 --> Total execution time: 0.0451
+DEBUG - 2020-12-31 22:40:30 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:40:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:40:30 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:40:30 --> Total execution time: 0.0585
+DEBUG - 2020-12-31 22:41:13 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:41:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:41:13 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:41:13 --> Total execution time: 0.0405
+DEBUG - 2020-12-31 22:42:22 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:42:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:42:22 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:42:22 --> Total execution time: 0.1327
+DEBUG - 2020-12-31 22:43:00 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:43:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:43:00 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:43:01 --> Total execution time: 0.1246
+DEBUG - 2020-12-31 22:43:26 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:43:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:43:26 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:43:26 --> Total execution time: 0.1335
+DEBUG - 2020-12-31 22:44:14 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:44:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:44:14 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:44:15 --> Total execution time: 0.1098
+DEBUG - 2020-12-31 22:44:48 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:44:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:44:48 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:44:48 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 22:44:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:44:48 --> Total execution time: 0.0434
+DEBUG - 2020-12-31 22:45:23 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:45:23 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 22:45:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:45:24 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:45:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:45:24 --> Total execution time: 0.0493
+DEBUG - 2020-12-31 22:45:26 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:45:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:45:26 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:45:26 --> Total execution time: 0.0503
+DEBUG - 2020-12-31 22:45:54 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:45:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:45:54 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:45:54 --> Total execution time: 0.0476
+DEBUG - 2020-12-31 22:47:10 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:47:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:47:10 --> Total execution time: 0.0801
+DEBUG - 2020-12-31 22:49:55 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:49:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:49:55 --> Total execution time: 0.0537
+DEBUG - 2020-12-31 22:50:00 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:50:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:50:00 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:50:00 --> Total execution time: 0.0658
+DEBUG - 2020-12-31 22:51:12 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:51:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:51:12 --> Total execution time: 0.0580
+DEBUG - 2020-12-31 22:51:15 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:51:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:51:16 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:51:16 --> Total execution time: 0.0574
+DEBUG - 2020-12-31 22:54:12 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:54:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:54:12 --> Total execution time: 0.0533
+DEBUG - 2020-12-31 22:54:44 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:54:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:54:44 --> Total execution time: 0.0550
+DEBUG - 2020-12-31 22:54:56 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:54:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:54:56 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:54:56 --> Total execution time: 0.1523
+DEBUG - 2020-12-31 22:55:26 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:55:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:55:26 --> Total execution time: 0.0409
+DEBUG - 2020-12-31 22:55:33 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:55:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:55:33 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:55:33 --> Total execution time: 0.1236
+DEBUG - 2020-12-31 22:56:50 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:56:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:56:50 --> Total execution time: 0.0558
+DEBUG - 2020-12-31 22:56:55 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 22:56:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 22:56:55 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 22:56:56 --> Total execution time: 0.1077
+DEBUG - 2020-12-31 23:06:16 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:06:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:06:16 --> Total execution time: 0.0391
+DEBUG - 2020-12-31 23:06:24 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:06:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:06:24 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 23:06:24 --> Total execution time: 0.1060
+DEBUG - 2020-12-31 23:06:46 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:06:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:06:46 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 23:06:46 --> Total execution time: 0.1330
+DEBUG - 2020-12-31 23:12:31 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:12:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:12:31 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:12:31 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 23:12:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:12:31 --> Total execution time: 0.0424
+DEBUG - 2020-12-31 23:12:39 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:12:39 --> No URI present. Default controller set.
+DEBUG - 2020-12-31 23:12:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:12:39 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:12:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:12:39 --> Total execution time: 0.0450
+DEBUG - 2020-12-31 23:12:53 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:12:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:12:53 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 23:12:53 --> Total execution time: 0.1114
+DEBUG - 2020-12-31 23:14:48 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:14:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:14:48 --> Total execution time: 0.0443
+DEBUG - 2020-12-31 23:15:44 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:15:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:15:45 --> Total execution time: 0.0430
+DEBUG - 2020-12-31 23:15:48 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:15:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:15:48 --> Total execution time: 0.0500
+DEBUG - 2020-12-31 23:16:14 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:16:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:16:14 --> Total execution time: 0.0424
+DEBUG - 2020-12-31 23:16:36 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:16:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:16:36 --> Total execution time: 0.0437
+DEBUG - 2020-12-31 23:17:01 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:17:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:17:01 --> Total execution time: 0.0547
+DEBUG - 2020-12-31 23:17:49 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:17:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:17:49 --> Total execution time: 0.0405
+DEBUG - 2020-12-31 23:18:12 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:18:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:18:12 --> Total execution time: 0.0426
+DEBUG - 2020-12-31 23:18:23 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:18:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:18:23 --> Total execution time: 0.0385
+DEBUG - 2020-12-31 23:18:27 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:18:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:18:27 --> Total execution time: 0.0499
+DEBUG - 2020-12-31 23:18:37 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:18:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:18:37 --> Total execution time: 0.0588
+DEBUG - 2020-12-31 23:19:27 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:19:27 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 23:19:27 --> 404 Page Not Found: Authentication/index
+DEBUG - 2020-12-31 23:19:35 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:19:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:19:35 --> Total execution time: 0.0325
+DEBUG - 2020-12-31 23:20:30 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:20:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:20:30 --> Total execution time: 0.0508
+DEBUG - 2020-12-31 23:20:52 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:20:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:20:52 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 23:20:52 --> Total execution time: 0.1466
+DEBUG - 2020-12-31 23:21:58 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:21:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:21:58 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 23:21:58 --> Total execution time: 0.1230
+DEBUG - 2020-12-31 23:22:27 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:22:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:22:27 --> Total execution time: 0.0505
+DEBUG - 2020-12-31 23:22:40 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:22:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:22:40 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2020-12-31 23:22:40 --> Total execution time: 0.1463
+DEBUG - 2020-12-31 23:23:19 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:23:19 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-31 23:23:19 --> 404 Page Not Found: Authentication/index
+DEBUG - 2020-12-31 23:23:26 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:23:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:23:26 --> Total execution time: 0.0513
+DEBUG - 2020-12-31 23:23:46 --> UTF-8 Support Enabled
+DEBUG - 2020-12-31 23:23:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-31 23:23:46 --> Total execution time: 0.0317

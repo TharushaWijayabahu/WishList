@@ -1,0 +1,61 @@
+DEBUG - 2020-12-30 21:49:02 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 21:49:02 --> No URI present. Default controller set.
+DEBUG - 2020-12-30 21:49:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-30 21:49:02 --> Total execution time: 0.1020
+DEBUG - 2020-12-30 21:49:18 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 21:49:18 --> No URI present. Default controller set.
+DEBUG - 2020-12-30 21:49:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-30 21:49:18 --> Total execution time: 0.0484
+DEBUG - 2020-12-30 22:42:09 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 22:42:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-30 22:42:09 --> Severity: Notice --> Undefined property: Authentication::$load C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+ERROR - 2020-12-30 22:42:09 --> Severity: error --> Exception: Call to a member function model() on null C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+DEBUG - 2020-12-30 22:43:26 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 22:43:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-30 22:43:26 --> Severity: Notice --> Undefined property: Authentication::$load C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+ERROR - 2020-12-30 22:43:26 --> Severity: error --> Exception: Call to a member function model() on null C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+DEBUG - 2020-12-30 22:43:26 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 22:43:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-30 22:43:26 --> Severity: Notice --> Undefined property: Authentication::$load C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+ERROR - 2020-12-30 22:43:26 --> Severity: error --> Exception: Call to a member function model() on null C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+DEBUG - 2020-12-30 22:43:31 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 22:43:31 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-30 22:43:31 --> Severity: Notice --> Undefined property: Authentication::$load C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 12
+ERROR - 2020-12-30 22:43:31 --> Severity: error --> Exception: Call to a member function view() on null C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 12
+DEBUG - 2020-12-30 22:43:41 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 22:43:41 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-30 22:43:41 --> Severity: Notice --> Undefined property: Authentication::$load C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+ERROR - 2020-12-30 22:43:41 --> Severity: error --> Exception: Call to a member function model() on null C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+DEBUG - 2020-12-30 22:45:10 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 22:45:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-30 22:45:10 --> Severity: Notice --> Undefined property: Authentication::$load C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+ERROR - 2020-12-30 22:45:10 --> Severity: error --> Exception: Call to a member function model() on null C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+DEBUG - 2020-12-30 22:45:12 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 22:45:12 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-30 22:45:12 --> Severity: Notice --> Undefined property: Authentication::$load C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+ERROR - 2020-12-30 22:45:12 --> Severity: error --> Exception: Call to a member function model() on null C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+DEBUG - 2020-12-30 22:45:13 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 22:45:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-30 22:45:13 --> Severity: Notice --> Undefined property: Authentication::$load C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+ERROR - 2020-12-30 22:45:13 --> Severity: error --> Exception: Call to a member function model() on null C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+DEBUG - 2020-12-30 22:45:18 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 22:45:18 --> No URI present. Default controller set.
+DEBUG - 2020-12-30 22:45:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-30 22:45:18 --> Total execution time: 0.0368
+DEBUG - 2020-12-30 22:45:33 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 22:45:33 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-30 22:45:33 --> Severity: Notice --> Undefined property: Authentication::$load C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+ERROR - 2020-12-30 22:45:33 --> Severity: error --> Exception: Call to a member function model() on null C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+DEBUG - 2020-12-30 23:44:55 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 23:44:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-30 23:44:55 --> Severity: Notice --> Undefined property: Authentication::$load C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+ERROR - 2020-12-30 23:44:55 --> Severity: error --> Exception: Call to a member function model() on null C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 7
+DEBUG - 2020-12-30 23:46:16 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 23:46:16 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2020-12-30 23:46:16 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) C:\xampp\htdocs\2017296\WishList\application\controllers\Authentication.php 8
+DEBUG - 2020-12-30 23:46:27 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 23:46:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-30 23:46:27 --> Total execution time: 0.0673
+DEBUG - 2020-12-30 23:56:27 --> UTF-8 Support Enabled
+DEBUG - 2020-12-30 23:56:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2020-12-30 23:56:27 --> Total execution time: 0.0383
