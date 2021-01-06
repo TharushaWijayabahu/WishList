@@ -31,7 +31,7 @@ class WishList extends \Restserver\Libraries\REST_Controller {
             ];
             $result = $this->WishListModel->createWishList($data);
             if ($result) {
-                $this->set_response($result, \Restserver\Libraries\REST_Controller::HTTP_CREATED);
+                $this->set_response($result[0], \Restserver\Libraries\REST_Controller::HTTP_CREATED);
             } else {
                 $message = [
                     'status' => FALSE,
@@ -56,7 +56,7 @@ class WishList extends \Restserver\Libraries\REST_Controller {
             $result = $this->WishListModel->getAllWishList($userId);
             if ($result) {
                 // Set the response and exit
-                $this->response($result, \Restserver\Libraries\REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
+                $this->response($result[0], \Restserver\Libraries\REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
             } else {
                 // Set the response and exit
                 $this->response([
@@ -73,7 +73,7 @@ class WishList extends \Restserver\Libraries\REST_Controller {
 
             $result = $this->WishListModel->getWishListById($userId, $id);
             if (!empty($result)) {
-                $this->set_response($result, \Restserver\Libraries\REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
+                $this->set_response($result[0], \Restserver\Libraries\REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
             } else {
                 $this->set_response([
                     'status' => FALSE,
@@ -84,21 +84,26 @@ class WishList extends \Restserver\Libraries\REST_Controller {
     }
 
     public function wishlist_delete() {
-
-        $id = (int)$this->get('id');
-        var_dump($id . "delete called");
-        // Validate the id.
-        if ($id <= 0) {
+        $id = $this->get('id');
+        if ($id <= 0 || $id === NULL) {
             // Set the response and exit
-            $this->response(NULL, \Restserver\Libraries\REST_Controller::HTTP_BAD_REQUEST); // BAD_REQUEST (400) being the HTTP response code
+            $this->response(null, \Restserver\Libraries\REST_Controller::HTTP_BAD_REQUEST); // BAD_REQUEST (400) being the HTTP response code
+        }else{
+            $result = $this->WishListModel->deleteWishList($id);
+            if($result){
+                $message = [
+                    'id' => $result,
+                    'message' => 'Wish list deleted successfully'
+                ];
+                $this->set_response($message, \Restserver\Libraries\REST_Controller::HTTP_ACCEPTED);
+            }else{
+                $message = [
+                    'id' => $result,
+                    'message' => 'Wish list was not found'
+                ];
+                $this->set_response($message, \Restserver\Libraries\REST_Controller::HTTP_NOT_FOUND);
+            }
         }
-
-        // $this->some_model->delete_something($id);
-        $message = [
-            'id' => $id,
-            'message' => 'Deleted the resource'
-        ];
-        $this->set_response($message, \Restserver\Libraries\REST_Controller::HTTP_NO_CONTENT); // NO_CONTENT (204) being the HTTP response code
     }
 
     public function wishlist_put() {
@@ -111,7 +116,7 @@ class WishList extends \Restserver\Libraries\REST_Controller {
         ];
         $result = $this->WishListModel->updateWishList($id, $data);
         if ($result) {
-            $this->set_response($result, \Restserver\Libraries\REST_Controller::HTTP_OK); // NO_CONTENT (204) being the HTTP response code
+            $this->set_response($result[0], \Restserver\Libraries\REST_Controller::HTTP_OK); // NO_CONTENT (204) being the HTTP response code
         } else {
             $message = [
                 'status' => false,
@@ -121,72 +126,7 @@ class WishList extends \Restserver\Libraries\REST_Controller {
         }
     }
 
-    public function priority_get(){
-            $result = $this->WishListModel->getAllPriority();
-
-            if (!empty($result)) {
-                $this->set_response($result, \Restserver\Libraries\REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
-            } else {
-                $this->set_response([
-                    'status' => FALSE,
-                    'message' => 'Priorities were not found'
-                ], \Restserver\Libraries\REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
-            }
-    }
-
-    public function items_get() {
-        $id = $this->get('id');
-        $userId = $this->session->userdata('userId');
-        $wishListId = $this->get('wId');
-        if ($id === NULL) {
-                $results = $this->WishListModel->getAllItems($userId, $wishListId);
-            if ($results) {
-                // Set the response and exit
-                $this->response($results, \Restserver\Libraries\REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
-            } else {
-                // Set the response and exit
-                $this->response([
-                    'status' => FALSE,
-                    'message' => 'No items were found'
-                ], \Restserver\Libraries\REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
-            }
-        } else {
-            $id = (int)$id;
-            if ($id <= 0) {
-                // Invalid id, set the response and exit.
-                $this->response(NULL, \Restserver\Libraries\REST_Controller::HTTP_BAD_REQUEST); // BAD_REQUEST (400) being the HTTP response code
-            }
-            $item = null;
-            if (!empty($item)) {
-
-                $this->set_response($item, \Restserver\Libraries\REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
-            } else {
-                $this->set_response([
-                    'status' => FALSE,
-                    'message' => 'Item could not be found'
-                ], \Restserver\Libraries\REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
-            }
-        }
-
-    }
-
-    public function items_post() {
-
-    }
-
-    public function items_put() {
-
-        $data = $this->put('');
-
-    }
-
-    public function items_delete() {
-        $id = (int)$this->get('id');
-
-    }
-
     private function isEmpty($value) {
         return (!isset($value) || trim($value) === '');
     }
-
 }

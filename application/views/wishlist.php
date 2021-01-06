@@ -14,7 +14,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
         <div class="container mb-4">
             <div class="row">
-                <div class="col-lg-4 pb-5">
+                <div class="col-lg-4 pb-5" id="profileView">
                     <!-- Account Sidebar-->
                     <div class="author-card pb-3">
                         <div class="author-card-cover"
@@ -27,21 +27,24 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                         src="<?php echo base_url('assets/img/profile-pic-1.png') ?>" alt="Daniel Adams">
                             </div>
                             <div class="author-card-details">
-                                <h5 class="author-card-name text-lg">Daniel Adams</h5><span
-                                        class="author-card-position">Joined February 06, 2017</span>
+                                <h5 class="author-card-name text-lg" id="user_name">Daniel Adams</h5><span
+                                        class="author-card-position" id="user_email">Joined February 06, 2017</span>
                             </div>
                         </div>
                     </div>
                     <div class="wizard">
                         <nav class="list-group list-group-flush">
-                            <a class="list-group-item active" href="#">
+                            <a class="list-group-item" href="#">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div><i class="fa fa-shopping-bag mr-1 text-muted"></i>
                                         <div class="d-inline-block font-weight-medium text-uppercase">My Wishlis</div>
                                     </div>
                                     <span class="badge badge-secondary">6</span>
                                 </div>
-                            </a><a class="list-group-item" href="#profile"><i class="fa fa-user text-muted"></i>Profile </a>
+                            </a><a class="list-group-item" href="#wishlist">
+                                <i class="fa fa-user text-muted"></i>Wish Items </a>
+                            </a><a class="list-group-item" href="#profile">
+                                <i class="fa fa-user text-muted"></i>Profile </a>
                             <a class="list-group-item" href="#shared-list">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div><i class="fa fa-heart mr-1 text-muted"></i>
@@ -117,7 +120,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <script src="<?php echo base_url(); ?>assets/js/jquery-3.5.1.min.js"></script>
             <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
             <script src="<?php echo base_url(); ?>assets/js/underscore-min.js"></script>
-            <script src="<?php echo base_url(); ?>assets/js/backbone-min.js"></script>
+<!--            <script src="--><?php //echo base_url(); ?><!--assets/js/backbone-min.js"></script>-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.0/backbone-min.js"></script>
             <script id="wishListTemplate" type="text/html">
                 <div class="text-center" style="margin-bottom: 2%;">
                     <button type="button" id="addItem" class="btn btn-success" data-toggle="modal"
@@ -127,19 +131,19 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
                 <% if(models){
                 } %>
-                <% _.each(models, function(car) { %>
-                <div id="<%= car.get('id') %>">
+                <% _.each(models, function(item) { %>
+                <div id="<%= item.get('id') %>">
                     <div class="cart-item d-md-flex justify-content-between">
                         <div class="px-3 my-3">
-                            <a class="cart-item-product" href="<%= car.get('url') %>">
+                            <a class="item-item-product" href="<%= item.get('url') %>">
                                 <div class="cart-item-product-thumb">
-                                    <img id="itemImg" src="<%= car.get('imgUrl') %>" alt="Product">
+                                    <img id="itemImg" src="<%= item.get('img_url') %>" alt="Product">
                                 </div>
                                 <div class="cart-item-product-info">
-                                    <h4 class="cart-item-product-title" id="itemTitle"><%= car.get('title') %></h4>
-                                    <div class="text-lg text-body font-weight-medium pb-1">$ <%= car.get('price') %></div>
+                                    <h4 class="cart-item-product-title" id="itemTitle"><%= item.get('title') %></h4>
+                                    <div class="text-lg text-body font-weight-medium pb-1">$ <%= item.get('price') %></div>
                                     <span>Quantity: <span
-                                                class="text-warning font-weight-medium"><%= car.get('qty') %></span></span>
+                                                class="text-warning font-weight-medium"><%= item.get('qty') %></span></span>
                                 </div>
                             </a>
                         </div>
@@ -158,30 +162,42 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
             </script>
             <script type="text/javascript">
-                //            Creating backbone model for Item
+                // Creating backbone model for Item
                 let Item = Backbone.Model.extend({
                     //url: "<?php //echo base_url('index.php/api/wishlist/item');?>//",
                     idAttribute: 'id',
                     defaults: {
                         "id": null,
+                        "w_id": null,
+                        "pr_id": null,
                         "title": "",
-                        "priority": "",
                         "price": null,
                         "qty": null,
                         "url": "",
-                        "imgUrl": ""
+                        "imgUrl": "",
+                        "pr_name": "",
+                        "pr_level": "",
+                        "created_at": "",
+                        "updated_at": "",
                     }
                 });
-                //            Creating backbone model for User
+                // Creating backbone collection for wishlist item
+                let WishItemCollection = Backbone.Collection.extend({
+                    url: "<?php echo base_url('index.php/api/wishitem/item');?>?wId=5",
+                    model: Item,
+                });
+                // Creating backbone model for User
                 let User = Backbone.Model.extend({
-                    //url: "<?php //echo base_url('index.php/api/wishlist/item');?>//",
+                    url: "<?php echo base_url('index.php/api/users/user');?>?id=1001",
                     idAttribute: 'id',
                     defaults: {
                         "id": null,
                         "name": "",
                         "email": "",
                         "address": null,
-                        "tel": null
+                        "tel": "",
+                        "created_at": "",
+                        "updated_at": ""
                     }
                 });
 
@@ -195,19 +211,47 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 });
 
                 //    Views
-                let WishListView = Backbone.View.extend({
+
+                let ProfileView = Backbone.View.extend({
+                    el: '#profileView',
+                    initialize: function () {
+                        this.listenTo(this.model, 'change', this.render);
+                        this.model.fetch({
+                            async: false,
+                            success: function (data, statusText) {
+
+                                console.log("success",statusText)
+                            },
+                            error:function (data, statusText) {
+                                console.log(statusText)
+                            }
+                        });
+                        // this.listenTo(this.model, 'sync click', this.deleteItem);
+
+                        this.render();
+                    },
+                    render: function (){
+                        // console.log(this.model.get('name'));
+                        $("#user_name").html(this.model.get('name'));
+                        $("#user_email").html(this.model.get('email'));
+                        let html = '<b>Name : </b>' + this.model.get('name');
+                    }
+                });
+
+                let WishItemView = Backbone.View.extend({
                     el: '#wishListView',
                     template: _.template($("#wishListTemplate").html()),
                     initialize: function () {
-                        this.listenTo(this.model, 'sync', this.render);
+                        this.listenTo(this.model, 'change sync', this.render);
                         this.model.on('click', this.editItem, this);
                         this.model.fetch({
                             async: false,
                             success: function (data, statusText) {
-                                console.log("success",statusText)
+
+                                console.log("success",statusText.length)
                             },
                             error:function (data, statusText) {
-                                console.log(statusText.responseJSON.message)
+                                console.log(statusText)
                             }
                         });
                         // this.listenTo(this.model, 'sync click', this.deleteItem);
@@ -235,7 +279,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     }
                 });
 
-                let CreateWishView = Backbone.View.extend({
+                let WishListView = Backbone.View.extend({
                     el: '#wishListView',
                     // template: _.template($("#wishListTemplate").html()),
                     initialize: function () {
@@ -284,11 +328,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         "shared-list": "sharedView"
                     },
                     createWishListView: function () {
-                        // new WishListView({model: new ItemCollection()});
+                        new ProfileView({model: new User()});
                         console.log("createWishListView");
                     },
                     wishItemView: function () {
-                        new WishListView({model: new ItemCollection()});
+                        new WishItemView({model: new WishItemCollection()});
                         console.log("wishItemView");
                     },
                     profileView: function () {

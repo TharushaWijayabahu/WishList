@@ -70,7 +70,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <script type="text/javascript">
             let User = Backbone.Model.extend({
-                url: "<?php echo base_url('index.php/api/authentication/authentication');?>",
+                url: "<?php echo base_url('index.php/api/authentication/user');?>",
                 defaults: {
                     "email": null,
                     "password": null

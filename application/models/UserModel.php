@@ -1,5 +1,5 @@
 <?php
-
+defined('BASEPATH') or exit('No direct script access allowed');
 
 class UserModel extends CI_Model {
 
@@ -30,6 +30,7 @@ class UserModel extends CI_Model {
     }
 
     function getUser($id){
+        $this->db->select('id, name, email, address, tel, created_at, updated_at');
         $query = $this->db->get_where('user', array('id' => $id));
         if ($query->num_rows() != 1) {
             return false;
@@ -43,7 +44,7 @@ class UserModel extends CI_Model {
         $query = $this->db->update('user', $data);
 
         if($query){
-            $this->db->select('name, email, address,tel,created_at,updated_at');
+            $this->db->select('id, name, email, address, tel, created_at, updated_at');
             $result = $this->db->get_where('user', array('id' => $id));
             return $result->result();
         }else{

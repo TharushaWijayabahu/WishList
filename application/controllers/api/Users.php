@@ -24,58 +24,56 @@ class Users extends \Restserver\Libraries\REST_Controller {
 
         } // Find and return a single record for a particular user.
         else {
-            $id = (int) $id;
+            $id = (int)$id;
 
             if ($id <= 0) {
                 $this->response(NULL, \Restserver\Libraries\REST_Controller::HTTP_BAD_REQUEST); // BAD_REQUEST (400) being the HTTP response code
-            }else{
-
-            }
-
-            $result = $this->UserModel->getUser($id);
-
-            if (!empty($result)) {
-                $this->set_response($result, \Restserver\Libraries\REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
             } else {
-                $this->set_response([
-                    'status' => FALSE,
-                    'message' => 'User not found'
-                ], \Restserver\Libraries\REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
+                $result = $this->UserModel->getUser($id);
+
+                if (!empty($result)) {
+                    $this->set_response($result[0], \Restserver\Libraries\REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
+                } else {
+                    $this->set_response([
+                        'status' => FALSE,
+                        'message' => 'User not found'
+                    ], \Restserver\Libraries\REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
+                }
             }
         }
     }
 
-    public function user_post(){
+    public function user_post() {
         $name = $this->post('name_reg');
         $email = $this->post('email_reg');
         $password = $this->post('password_reg');
         $address = $this->post('address_reg');
-        $mobile= $this->post('mobile_reg');
+        $mobile = $this->post('mobile_reg');
 
-        if($name == '' || $email == '' || $address == '' || $password == '' || $mobile == ''){
+        if ($name == '' || $email == '' || $address == '' || $password == '' || $mobile == '') {
             $message = [
                 'status' => FALSE,
                 'message' => 'Unauthorized Accessed'
             ];
             $this->set_response($message, \Restserver\Libraries\REST_Controller::HTTP_FORBIDDEN);
-        }else{
-            if($this->email_validation($email)){
+        } else {
+            if ($this->email_validation($email)) {
                 $result = $this->AuthenticationModel->registerUser($name, $email, $password, $address, $mobile);
 
-                if($result){
+                if ($result) {
                     $message = [
                         'status' => TRUE,
                         'message' => 'Successfully Registered'
                     ];
                     $this->set_response($message, \Restserver\Libraries\REST_Controller::HTTP_CREATED);
-                }else{
+                } else {
                     $message = [
                         'status' => FALSE,
                         'message' => 'This email is already registered. Please log in.'
                     ];
                     $this->set_response($message, \Restserver\Libraries\REST_Controller::HTTP_BAD_REQUEST);
                 }
-            }else{
+            } else {
                 $message = [
                     'status' => FALSE,
                     'message' => 'You must enter valid email'
@@ -85,47 +83,35 @@ class Users extends \Restserver\Libraries\REST_Controller {
         }
     }
 
-    public function user_delete() {
-
-        $id = (int) $this->get('id');
-        var_dump($id. "delete called");
-        // Validate the id.
-        if ($id <= 0)
-        {
-            // Set the response and exit
-            $this->response(NULL, \Restserver\Libraries\REST_Controller::HTTP_BAD_REQUEST); // BAD_REQUEST (400) being the HTTP response code
-        }
-
-        // $this->some_model->delete_something($id);
-        $message = [
-            'id' => $id,
-            'message' => 'Deleted the resource'
-        ];
-        $this->set_response($message, \Restserver\Libraries\REST_Controller::HTTP_NO_CONTENT); // NO_CONTENT (204) being the HTTP response code
-    }
-
-    public function user_put(){
+    public function user_put() {
         $id = $this->put('id');
-        $data = [
-            'name' => $this->put('name'),
-            'email' => $this->put('email'),
-            'address' => $this->put('address'),
-            'tel' => $this->put('tel'),
-            'updated_at' => date("Y-m-d h:m:s")
-        ];
-
-
-        $result = $this->UserModel->updateUser($id, $data);
-        if($result){
-            $this->set_response($result, \Restserver\Libraries\REST_Controller::HTTP_OK); // NO_CONTENT (204) being the HTTP response code
-        }else{
+        $id = $this->put('id');
+        if ($id === NULL) {
             $message = [
                 'status' => false,
-                'message' => "User not found"
+                'message' => "User id was required"
             ];
-            $this->set_response($message, \Restserver\Libraries\REST_Controller::HTTP_UNAUTHORIZED);
-        }
+            $this->set_response($message, \Restserver\Libraries\REST_Controller::HTTP_BAD_REQUEST);
+        } else {
+            $data = [
+                'name' => $this->put('name'),
+                'email' => $this->put('email'),
+                'address' => $this->put('address'),
+                'tel' => $this->put('tel'),
+                'updated_at' => date("Y-m-d h:m:s")
+            ];
 
+            $result = $this->UserModel->updateUser($id, $data);
+            if ($result) {
+                $this->set_response($result[0], \Restserver\Libraries\REST_Controller::HTTP_OK); // NO_CONTENT (204) being the HTTP response code
+            } else {
+                $message = [
+                    'status' => false,
+                    'message' => "User not found"
+                ];
+                $this->set_response($message, \Restserver\Libraries\REST_Controller::HTTP_UNAUTHORIZED);
+            }
+        }
     }
 
     private function email_validation($str) {

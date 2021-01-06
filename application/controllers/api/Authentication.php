@@ -11,7 +11,7 @@ class Authentication extends \Restserver\Libraries\REST_Controller{
         $this->load->model('AuthenticationModel');
     }
 
-    public function authentication_post(){
+    public function user_post(){
 
         $email = $this->post('email');
         $password = $this->post('password');

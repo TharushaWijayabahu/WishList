@@ -48,8 +48,8 @@ class WishListModel extends CI_Model {
         }
     }
 
-    public function getAllPriority(){
-        $query = $this->db->get('priority');
+    public function getWishList($id){
+        $query = $this->db->get_where('wish_list', array('id' => $id));
         if ($query->num_rows() < 1) {
             return false;
         } else {
@@ -57,28 +57,13 @@ class WishListModel extends CI_Model {
         }
     }
 
-    public function getAllItems($userId, $wishListId) {
-        $this->db->select('item.id, item.w_id, item.pr_id, item.title, item.qty, item.url, item.img_url,
-         priority.pr_level, item.created_at, item.updated_at');
-        $this->db->from('item');
-        $this->db->join('priority', 'item.pr_id = priority.id');
-        $this->db->order_by('pr_level', 'ASC');
-        $this->db->where('w_id', $wishListId);
-        $query = $this->db->get();
-
-        if ($query->num_rows() < 1) {
-            return false;
-        } else {
-            return $query->result();
-        }
-    }
-
-    public function getItemById($userId, $id) {
-        $query = $this->db->get_where('wish_list', array('u_id' => $userId, 'id' => $id));
-        if ($query->num_rows() < 1) {
-            return false;
-        } else {
-            return $query->result();
+    public function deleteWishList($id){
+        if($this->getWishList($id)){
+            $this->db->where('id', $id);
+            $this->db->delete('wish_list');
+            return TRUE;
+        }else{
+            return  FALSE;
         }
     }
 }

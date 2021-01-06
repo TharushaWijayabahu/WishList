@@ -455,6 +455,11 @@ a.list-group-item, .list-group-item-action {
 .cart-item .cart-item-product:hover .cart-item-product-title {
     color: #ac32e4;
 }
+
+.cart-item a.item-item-product:hover{
+    color: #0056b3;
+    text-decoration: none;
+}
 .cart-item .count-input {
     display: inline-block;
     width: 85px;
