@@ -82,19 +82,19 @@ let WishListView = Backbone.View.extend({
         // $('#userData').html(stuff);
     },
     events: {
-        'click #addItem': 'addItem',
-        'click #editItem': 'editItem',
-        'click #deleteItem': 'deleteItem'
+        // 'click #addItem': 'addItem',
+        // 'click #editItem': 'editItem',
+        // 'click #deleteItem': 'deleteItem'
     },
-    addItem: function () {
-        alert('Do addItem');
-    },
-    editItem: function () {
-        alert('Do Change');
-    },
-    deleteItem: function () {
-        alert('Do Delete');
-    }
+    // addItem: function () {
+    //     alert('Do addItem');
+    // },
+    // editItem: function () {
+    //     alert('Do Change');
+    // },
+    // deleteItem: function () {
+    //     alert('Do Delete');
+    // }
 });
 
 //Router

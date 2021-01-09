@@ -16,7 +16,18 @@ class WishItemModel extends CI_Model {
         }
     }
 
-    public function getAllItems($userId, $wishListId) {
+    public function getWishListIdByUser($userId){
+        $query = $this->db->get_where('wish_list', array('u_id' => $userId));
+        if ($query->num_rows() < 1) {
+            return false;
+        } else {
+            $result = $query->result();
+            return $result[0]->id;
+        }
+    }
+
+    public function getAllItems($userId) {
+        $wishListId = $this->getWishListIdByUser($userId);
         $this->db->select('item.id, item.w_id, item.pr_id, item.title, item.price, item.qty, item.url, item.img_url,
          priority.name AS pr_name, priority.pr_level, item.created_at, item.updated_at');
         $this->db->from('item');
@@ -41,7 +52,19 @@ class WishItemModel extends CI_Model {
         }
     }
 
-    public function createItem($data){
+    public function createItem($uId, $prId, $title, $price, $qty, $url, $imgUrl){
+        $wID = $this->getWishListIdByUser($uId);
+        $data = [
+            "w_id" => $wID,
+            "pr_id" => $prId,
+            "title" => $title,
+            "price" => $price,
+            "qty" => $qty,
+            "url" => $url,
+            "img_url" => $imgUrl,
+            'created_at' => date("Y-m-d h:m:s"),
+            'updated_at' => date("Y-m-d h:m:s")
+        ];
         $this->db->insert('item', $data);
         $id = $this->db->insert_id();
         if ($id > 0) {

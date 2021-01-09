@@ -30,9 +30,8 @@ class WishItem extends \Restserver\Libraries\REST_Controller {
     public function item_get() {
         $id = $this->get('id');
         $userId = $this->session->userdata('userId');
-        $wishListId = $this->get('wId');
         if ($id === NULL) {
-            $results = $this->WishItemModel->getAllItems($userId, $wishListId);
+            $results = $this->WishItemModel->getAllItems($userId);
             if ($results) {
                 // Set the response and exit
                 $this->response($results, \Restserver\Libraries\REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
@@ -64,7 +63,7 @@ class WishItem extends \Restserver\Libraries\REST_Controller {
     }
 
     public function item_post() {
-        $wID = $this->post('w_id');
+        $uId = $this->session->userdata('userId');
         $prId = $this->post('pr_id');
         $title = $this->post('title');
         $price = $this->post('price');
@@ -72,23 +71,13 @@ class WishItem extends \Restserver\Libraries\REST_Controller {
         $url = $this->post('url');
         $imgUrl = $this->post('img_url');
 
-        if (!$this->isEmpty($wID) && !$this->isEmpty($prId) && !$this->isEmpty($title) &&
+        if (!$this->isEmpty($prId) && !$this->isEmpty($title) &&
             !$this->isEmpty($price) && !$this->isEmpty($qty) && !$this->isEmpty($url)) {
             if(!$this->isImage($imgUrl)){
                 $imgUrl = "assets/img/present.jpg";
             }
-            $data = [
-                "w_id" => $wID,
-                "pr_id" => $prId,
-                "title" => $title,
-                "price" => $price,
-                "qty" => $qty,
-                "url" => $url,
-                "img_url" => $imgUrl,
-                'created_at' => date("Y-m-d h:m:s"),
-                'updated_at' => date("Y-m-d h:m:s")
-            ];
-            $result = $this->WishItemModel->createItem($data);
+
+            $result = $this->WishItemModel->createItem($uId, $prId, $title, $price, $qty, $url, $imgUrl);
             if($result){
                 $this->set_response($result[0], \Restserver\Libraries\REST_Controller::HTTP_CREATED);
             }else{
@@ -152,7 +141,7 @@ class WishItem extends \Restserver\Libraries\REST_Controller {
             if($result){
                 $message = [
                     'id' => $result,
-                    'message' => 'Item deleted successfully'
+                    'message' => $id . ' Item deleted successfully'
                 ];
                 $this->set_response($message, \Restserver\Libraries\REST_Controller::HTTP_ACCEPTED);
             }else{

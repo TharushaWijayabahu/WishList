@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="formBx">
                         <form action="" method="post">
                             <div class="form-group">
-                                <span class="alert-danger text-center" id="login_alert"></span>
+                                <span class="alert-danger" id="login_alert" style="display: inline-block;text-align: center"></span>
                                 <h2>Sign In</h2>
                                 <input type="text" name="user_email" id="user_email_login" class="form-control"
                                        placeholder="Username"/>
@@ -37,8 +37,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="formBx" id = "registration">
                         <form action="" method="post">
                             <div class="form-group">
-                                <span class="alert-danger" id="reg_alert"></span>
-                                <span class="alert-success" id="reg_alert_success"></span>
+                                <span class="alert-danger" id="reg_alert" style="display: inline-block;text-align: center"></span>
+                                <span class="alert-success" id="reg_alert_success" style="display: inline-block;text-align: center"></span>
                                 <h2>Create an account</h2>
                                 <input type="text" name="user_name" id="user_name_reg" class="form-control"
                                        placeholder="Name" required/>
@@ -104,15 +104,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     let email = this.model.get('email');
                     let password = this.model.get('password');
                     if(isEmpty(email) && isEmpty(password)){
-                        userEntry.save({},{
-                            async: false,
-                            success: function (data, statusText) {
-                                window.location.href = '/2017296/WishList';
-                            },
-                            error:function (data, statusText) {
-                                $("#login_alert").html(statusText.responseJSON.message);
-                            }
-                        });
+                        if(userEntry){
+                            userEntry.save({},{
+                                async: false,
+                                success: function (data, statusText) {
+                                    window.location.href = '/2017296/WishList';
+                                },
+                                error:function (data, statusText) {
+                                    $("#login_alert").html(statusText.responseJSON.message);
+                                }
+                            });
+                        }
                     }else{
                         $("#login_alert").html("You must fill out all fields.");
                     }
@@ -196,20 +198,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     "" : "login",
                     "register": "register",
                     "register(/:id)": "view"
-                },
-
-                register: function() {
-                    console.log("we are in register")
-                    let newUser = new NewUser();
-                    let registerView = new LoginView({model: newUser});
-                    // newUser.fetch({async:false});
-                },
-
-                login: function() {
-                    console.log("we are in login")
-                    let user = new User();
-                    let loginView = new LoginView({model: user});
-                    // user.fetch({async:false});
                 }
             });
 

@@ -19,13 +19,18 @@ class WishList extends \Restserver\Libraries\REST_Controller {
         $name = $this->post('name');
         $occasion = $this->post('occasion');
         $description = $this->post('description');
+        $imgUrl = $this->post('img_url');
 
         if (!$this->isEmpty($name) && !$this->isEmpty($occasion) && !$this->isEmpty($description)) {
+            if(!$this->isImage($imgUrl)){
+                $imgUrl = "assets/img/wishlist.png";
+            }
             $data = [
                 'u_id' => $this->session->userdata('userId'),
                 'name' => $name,
                 'occasion' => $occasion,
                 'description' => $description,
+                'img_url' => $imgUrl,
                 'created_at' => date("Y-m-d h:m:s"),
                 'updated_at' => date("Y-m-d h:m:s")
             ];
@@ -85,11 +90,12 @@ class WishList extends \Restserver\Libraries\REST_Controller {
 
     public function wishlist_delete() {
         $id = $this->get('id');
+        $uId = $this->session->userdata('userId');
         if ($id <= 0 || $id === NULL) {
             // Set the response and exit
             $this->response(null, \Restserver\Libraries\REST_Controller::HTTP_BAD_REQUEST); // BAD_REQUEST (400) being the HTTP response code
         }else{
-            $result = $this->WishListModel->deleteWishList($id);
+            $result = $this->WishListModel->deleteWishList($id , $uId);
             if($result){
                 $message = [
                     'id' => $result,
@@ -108,10 +114,15 @@ class WishList extends \Restserver\Libraries\REST_Controller {
 
     public function wishlist_put() {
         $id = $this->put('id');
+        $imgUrl = $this->put('img_url');
+        if(!$this->isImage($imgUrl)){
+            $imgUrl = "assets/img/wishlist.png";
+        }
         $data = [
             'name' => $this->put('name'),
             'occasion' => $this->put('occasion'),
             'description' => $this->put('description'),
+            'img_url' => $imgUrl,
             'updated_at' => date("Y-m-d h:m:s")
         ];
         $result = $this->WishListModel->updateWishList($id, $data);
@@ -128,5 +139,9 @@ class WishList extends \Restserver\Libraries\REST_Controller {
 
     private function isEmpty($value) {
         return (!isset($value) || trim($value) === '');
+    }
+
+    function isImage($url) {
+        return preg_match("/^[^\?]+\.(jpg|jpeg|gif|png)(?:\?|$)/", $url);
     }
 }
