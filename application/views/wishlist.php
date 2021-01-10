@@ -14,8 +14,260 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
         <div class="container mb-4">
             <div class="row">
-                <div class="col-lg-4 pb-5" id="profileView">
-                    <!-- Account Sidebar-->
+                <div class="col-lg-4 pb-5" id="profileView"></div>
+
+                <!-- Wishlist-->
+                <div class="col-lg-8 pb-5" id="wishListView"></div>
+            </div>
+
+            <!-- Add List Modal HTML -->
+            <div id="addListModal" class="modal fade">
+                <div class="modal-dialog modal-login">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="avatar">
+                                <img src="<?php echo base_url('assets/img/present-modal.png') ?>" alt="Avatar">
+                            </div>
+                            <h4 class="modal-title">Add List</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name" placeholder="Name"
+                                           required="required">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="occasion" placeholder="Occasion"
+                                           required="required">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Description" id="description"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="list_img_url" placeholder="Image URL"
+                                           required="required">
+                                </div>
+                                <div class="form-group">
+                                    <input type="button" id="addListBtn"
+                                           class="btn btn-primary btn-lg btn-block"
+                                           value="Add"/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Edit List Modal HTML -->
+            <div id="editListModal" class="modal fade">
+                <div class="modal-dialog modal-login">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="avatar">
+                                <img src="<?php echo base_url('assets/img/present-modal.png') ?>" alt="Avatar">
+                            </div>
+                            <h4 class="modal-title">Update List</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="edit_name" placeholder="Name"
+                                           required="required">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="edit_occasion" placeholder="Occasion"
+                                           required="required">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Description" id="edit_description"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="edit_list_img_url" placeholder="Image URL"
+                                           required="required">
+                                </div>
+                                <div class="form-group">
+                                    <input type="button" id="updateListBtn"
+                                           class="btn btn-primary btn-lg btn-block"
+                                           value="Update"/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Add Item Modal HTML -->
+                <div id="myModal" class="modal fade">
+                    <div class="modal-dialog modal-login">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="avatar">
+                                    <img src="<?php echo base_url('assets/img/present-modal.png') ?>" alt="Avatar">
+                                </div>
+                                <h4 class="modal-title">Add Item</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="#" method="post">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="title" placeholder="Title"
+                                               required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" name="price" min="0"
+                                               placeholder="Price"
+                                               required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" name="quantity" min="0"
+                                               placeholder="Quantity" required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="url" placeholder="URL"
+                                               required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="img_url" placeholder="Image URL"
+                                               required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="selectpicker form-control" id="priorities"
+                                                data-live-search="true">
+                                            <option value="1" data-name="Must-Have"
+                                                    data-pr_level="1" selected>Must-Have
+                                            </option>
+                                            <option value="2" data-name="Would be Nice to Have"
+                                                    data-pr_level="2">Would be Nice to Have
+                                            </option>
+                                            <option value="3" data-name="If possible"
+                                                    data-pr_level="3">If possible
+                                            </option>
+                                        </select>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="button" id="addItemBtn"
+                                               class="btn btn-primary btn-lg btn-block"
+                                               value="Add"/>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="editItemModal" class="modal fade">
+                    <div class="modal-dialog modal-login">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="avatar">
+                                    <img src="<?php echo base_url('assets/img/present-modal.png') ?>" alt="Avatar">
+                                </div>
+                                <h4 class="modal-title">Update an Item</h4>
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="#">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="editTitle" placeholder="Title"
+                                               value="" required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" name="editPrice" min="0"
+                                               placeholder="Price"
+                                               required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" name="editQuantity" min="0"
+                                               placeholder="Quantity" required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="editUrl" placeholder="URL"
+                                               required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="editImg_url"
+                                               placeholder="Image URL"
+                                               required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="selectpicker form-control" id="editPriorities"
+                                                data-live-search="true">
+                                            <option value="1" data-name="Must-Have"
+                                                    data-pr_level="1" selected>Must-Have
+                                            </option>
+                                            <option value="2" data-name="Would be Nice to Have"
+                                                    data-pr_level="2">Would be Nice to Have
+                                            </option>
+                                            <option value="3" data-name="If possible"
+                                                    data-pr_level="3">If possible
+                                            </option>
+                                        </select>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="button" id="updateItemBtn"
+                                               class="btn btn-primary btn-lg btn-block update-item-btn"
+
+                                               value="Update"/>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- confirmation modal delete item-->
+                <div id="confirm-modal" class="modal fade">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"></span>
+                                </button>
+                                <p id="confirmMessage"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="button" id="confirmDeleteBtn" class="btn btn-danger">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- confirmation modal Delete List-->
+                <div id="confirm-modal-delete-list" class="modal fade">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"></span>
+                                </button>
+                                <p id="confirmMessage">Are you sure to delete this wish list? It will be deleted all
+                                    the items & shared links on your wish list.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="button" id="confirmDeleteListBtn" class="btn btn-danger">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <script src="<?php echo base_url(); ?>assets/js/jquery-3.5.1.min.js"></script>
+                <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
+                <script src="<?php echo base_url(); ?>assets/js/underscore-min.js"></script>
+                <!--            <script src="--><?php //echo base_url(); ?><!--assets/js/backbone-min.js"></script>-->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.0/backbone-min.js"></script>
+
+                <script id="leftViewTemplate" type="text/html">
                     <div class="author-card pb-3">
                         <div class="author-card-cover"
                              style="background-image: url(<?php echo base_url('assets/img/cover.jpg') ?>);"><a
@@ -27,8 +279,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                         src="<?php echo base_url('assets/img/profile-pic-1.png') ?>" alt="Daniel Adams">
                             </div>
                             <div class="author-card-details">
-                                <h5 class="author-card-name text-lg" id="user_name">Daniel Adams</h5><span
-                                        class="author-card-position" id="user_email">Joined February 06, 2017</span>
+                                <h5 class="author-card-name text-lg" id="user_name"><%= this.model.get('name')%></h5>
+                                <span
+                                        class="author-card-position"
+                                        id="user_email"><%= this.model.get('email')%></span>
                             </div>
                         </div>
                     </div>
@@ -64,567 +318,550 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             </a>
                         </nav>
                     </div>
-                </div>
-                <!-- Wishlist-->
+                </script>
 
-                <div class="col-lg-8 pb-5" id="wishListView"></div>
-
-            </div>
-            <!--                            -->
-
-
-            <!-- Add Item Modal HTML -->
-            <div id="myModal" class="modal fade">
-                <div class="modal-dialog modal-login">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <div class="avatar">
-                                <img src="<?php echo base_url('assets/img/present-modal.png') ?>" alt="Avatar">
-                            </div>
-                            <h4 class="modal-title">Add Item</h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                <script id="wishListTemplate" type="text/html">
+                    <div class="hasNotWishList" id="hasNotWishList">
+                        <div class="text-center" style="margin-bottom: 2%; margin-top: 2%">
+                            <button type="button" class="btn btn-success" data-toggle="modal"
+                                    data-target="#addListModal">
+                                <i class="fas fa-plus"></i> Add Item
                             </button>
                         </div>
-                        <div class="modal-body">
-                            <form action="#" method="post">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="title" placeholder="Title"
-                                           required="required">
-                                </div>
-                                <div class="form-group">
-                                    <input type="number" class="form-control" name="price" min="0"
-                                           placeholder="Price"
-                                           required="required">
-                                </div>
-                                <div class="form-group">
-                                    <input type="number" class="form-control" name="quantity" min="0"
-                                           placeholder="Quantity" required="required">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="url" placeholder="URL"
-                                           required="required">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="img_url" placeholder="Image URL"
-                                           required="required">
-                                </div>
-                                <div class="form-group">
-                                    <select class="selectpicker form-control" id="priorities"
-                                            data-live-search="true">
-                                        <option value="1" data-name="Must-Have"
-                                                data-pr_level="1" selected>Must-Have
-                                        </option>
-                                        <option value="2" data-name="Would be Nice to Have"
-                                                data-pr_level="2">Would be Nice to Have
-                                        </option>
-                                        <option value="3" data-name="If possible"
-                                                data-pr_level="3">If possible
-                                        </option>
-                                    </select>
-
-                                </div>
-                                <div class="form-group">
-                                    <input type="button" id="addItemBtn"
-                                           class="btn btn-primary btn-lg btn-block"
-                                           value="Add"/>
-                                </div>
-                            </form>
+                        <div class="cart-item" style="min-height: 342px">
+                            <p class="text-center">No Wish List has been created yet</p>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <div id="editItemModal" class="modal fade">
-                <div class="modal-dialog modal-login">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <div class="avatar">
-                                <img src="<?php echo base_url('assets/img/present-modal.png') ?>" alt="Avatar">
+                    <div id="hasWishlist" class="hasWishlist">
+                        <div class="cart-item d-md-flex justify-content-between">
+                            <div class="px-3 my-3">
+                                <a target="_blank" class="item-item-product" href=" ">
+                                    <div class="cart-item-product-thumb">
+                                        <img id="itemImg" src="<%= this.model.get('img_url') %>" alt="Product">
+                                    </div>
+                                    <div class="cart-item-product-info">
+                                        <h4 class="cart-item-product-title" id="itemTitle">
+                                            <%= this.model.get('name') %> (<%= this.model.get('occasion') %>)</h4>
+                                        <div class="text-lg text-body font-weight-medium pb-1">
+                                            <%= this.model.get('description') %>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                            <h4 class="modal-title">Update an Item</h4>
-                            <button type="button" class="close" iclass="close" data-dismiss="modal"
-                                    aria-hidden="true">&times;
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <form action="#">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="editTitle" placeholder="Title"
-                                           value="" required="required">
+                            <div class="px-3 my-3">
+                                <div class="row" style="margin-top: 50%;">
+                                    <button rel="tooltip" id="editListBtn" data-id="<%= this.model.get('id') %>"
+                                            class="btn btn-default update-btn" data-toggle="modal"
+                                            data-target="#editListModal">
+                                        <i class="fas fa-edit fa-lg"></i></button>
+                                    <button rel="tooltip" id="deleteListBtn" data-id="<%= this.model.get('id') %>"
+                                            class="btn btn-default"
+                                            data-toggle="modal"
+                                            data-target="#confirm-modal-delete-list">
+                                        <i class="fas fa-trash-alt fa-lg"></i></button>
                                 </div>
-                                <div class="form-group">
-                                    <input type="number" class="form-control" name="editPrice" min="0"
-                                           placeholder="Price"
-                                           required="required">
-                                </div>
-                                <div class="form-group">
-                                    <input type="number" class="form-control" name="editQuantity" min="0"
-                                           placeholder="Quantity" required="required">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="editUrl" placeholder="URL"
-                                           required="required">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="editImg_url" placeholder="Image URL"
-                                           required="required">
-                                </div>
-                                <div class="form-group">
-                                    <select class="selectpicker form-control" id="editPriorities"
-                                            data-live-search="true">
-                                        <option value="1" data-name="Must-Have"
-                                                data-pr_level="1" selected>Must-Have
-                                        </option>
-                                        <option value="2" data-name="Would be Nice to Have"
-                                                data-pr_level="2">Would be Nice to Have
-                                        </option>
-                                        <option value="3" data-name="If possible"
-                                                data-pr_level="3">If possible
-                                        </option>
-                                    </select>
-
-                                </div>
-                                <div class="form-group">
-                                    <input type="button" id="updateItemBtn"
-                                           class="btn btn-primary btn-lg btn-block update-item-btn"
-
-                                           value="Update"/>
-                                </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </script>
 
-
-            <div role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-autohide="false">
-                <div class="toast-header">
-                    <img src="" class="rounded mr-2" alt="">
-                    <strong class="mr-auto">Bootstrap</strong>
-                    <small>11 mins ago</small>
-                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="toast-body">
-                    Hello, world! This is a toast message.
-                </div>
-            </div>
-
-            <script src="<?php echo base_url(); ?>assets/js/jquery-3.5.1.min.js"></script>
-            <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-            <script src="<?php echo base_url(); ?>assets/js/underscore-min.js"></script>
-            <!--            <script src="--><?php //echo base_url(); ?><!--assets/js/backbone-min.js"></script>-->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.0/backbone-min.js"></script>
-
-            <script id="wishListTemplate" type="text/html">
-                <div class="hasNotWishList" id="hasNotWishList">
+                <script id="wishItemTemplate" type="text/html">
+                    <% if(wishList.get('id')){%>
+                    <div>
+                        <h3 class="text-center"><%= wishList.get('name') %> (<%= wishList.get('occasion') %>)</h3>
+                    </div>
                     <div class="text-center" style="margin-bottom: 2%; margin-top: 2%">
                         <button type="button" class="btn btn-success" data-toggle="modal"
                                 data-target="#myModal">
                             <i class="fas fa-plus"></i> Add Item
                         </button>
                     </div>
-                    <div class="cart-item" style="min-height: 342px">
-                        <p class="text-center">No Wish List has been created yet</p>
+                    <% if(models.length === 0){%>
+                    <div class="cart-item" style="min-height: 75%">
+
+                        <p class="text-center">No items Found</p>
                     </div>
-                </div>
-                <div id="hasWishlist" class="hasWishlist">
-                    <div class="cart-item d-md-flex justify-content-between">
-                        <div class="px-3 my-3">
-                            <a target="_blank" class="item-item-product" href=" ">
-                                <div class="cart-item-product-thumb">
-                                    <img id="itemImg" src="<%= this.model.get('img_url') %>" alt="Product">
-                                </div>
-                                <div class="cart-item-product-info">
-                                    <h4 class="cart-item-product-title" id="itemTitle">
-                                        <%= this.model.get('name') %> (<%= this.model.get('occasion') %>)</h4>
-                                    <div class="text-lg text-body font-weight-medium pb-1">
-                                        <%= this.model.get('description') %>
+                    <% } _.each(models, function(item) { %>
+                    <div id="<%= item.get('id') %>">
+                        <div class="cart-item d-md-flex justify-content-between">
+                            <div class="px-3 my-3">
+                                <a target="_blank" class="item-item-product" href="<%= item.get('url') %>">
+                                    <div class="cart-item-product-thumb">
+                                        <img id="itemImg" src="<%= item.get('img_url') %>" alt="Product">
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="px-3 my-3">
-                            <div class="row" style="margin-top: 50%;">
-                                <button rel="tooltip" id="editListBtn" data-id="<%= this.model.get('id') %>"
-                                        class="btn btn-default update-btn" data-toggle="modal"
-                                        data-target="#editListModal">
-                                    <i class="fas fa-edit fa-lg"></i></button>
-                                <button rel="tooltip" id="deleteListBtn" data-id="<%= this.model.get('id') %>"
-                                        class="btn btn-default"><i
-                                            class="fas fa-trash-alt fa-lg"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </script>
-
-            <script id="wishItemTemplate" type="text/html">
-                <% if(wishList.get('id')){%>
-                <div>
-                    <h3 class="text-center"><%= wishList.get('name') %> (<%= wishList.get('occasion') %>)</h3>
-                </div>
-                <div class="text-center" style="margin-bottom: 2%; margin-top: 2%">
-                    <button type="button" class="btn btn-success" data-toggle="modal"
-                            data-target="#myModal">
-                        <i class="fas fa-plus"></i> Add Item
-                    </button>
-                </div>
-                <% if(models.length === 0){%>
-                <% console.log('models', models, '\n wishList',wishList)%>
-                <div class="cart-item" style="min-height: 75%">
-
-                    <p class="text-center">No items Found</p>
-                </div>
-                <% } _.each(models, function(item) { %>
-                <div id="<%= item.get('id') %>">
-                    <div class="cart-item d-md-flex justify-content-between">
-                        <div class="px-3 my-3">
-                            <a target="_blank" class="item-item-product" href="<%= item.get('url') %>">
-                                <div class="cart-item-product-thumb">
-                                    <img id="itemImg" src="<%= item.get('img_url') %>" alt="Product">
-                                </div>
-                                <div class="cart-item-product-info">
-                                    <h4 class="cart-item-product-title" id="itemTitle"><%= item.get('title') %></h4>
-                                    <div class="text-lg text-body font-weight-medium pb-1">$ <%= item.get('price') %>
-                                    </div>
-                                    <span>Quantity: <span
-                                                class="text-warning font-weight-medium"><%= item.get('qty') %></span>
+                                    <div class="cart-item-product-info">
+                                        <h4 class="cart-item-product-title" id="itemTitle"><%= item.get('title') %></h4>
+                                        <div class="text-lg text-body font-weight-medium pb-1">$ <%= item.get('price')
+                                            %>
+                                        </div>
+                                        <span>Quantity: <span
+                                                    class="text-warning font-weight-medium"><%= item.get('qty') %></span>
                                     </span>
-                                    <span> <%= item.get('pr_name') %> </span>
+                                        <span> <%= item.get('pr_name') %> </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="px-3 my-3">
+                                <div class="row" style="margin-top: 50%;">
+                                    <button rel="tooltip" id="editItemBtn" data-id="<%= item.get('id') %>"
+                                            class="btn btn-default update-btn"
+                                            data-toggle="modal"
+                                            data-target="#editItemModal">
+                                        <i class="fas fa-edit fa-lg"></i></button>
+                                    <button rel="tooltip" id="deleteItemBtn" data-id="<%= item.get('id') %>"
+                                            data-toggle="modal"
+                                            data-target="#confirm-modal"
+                                            class="btn btn-default"><i class="fas fa-trash-alt fa-lg"></i></button>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="px-3 my-3">
-                            <div class="row" style="margin-top: 50%;">
-                                <button rel="tooltip" id="editItemBtn" data-id="<%= item.get('id') %>"
-                                        class="btn btn-default update-btn"
-                                        data-toggle="modal"
-                                        data-target="#editItemModal">
-                                    <i class="fas fa-edit fa-lg"></i></button>
-                                <button rel="tooltip" id="deleteItemBtn" data-id="<%= item.get('id') %>"
-                                        class="btn btn-default"><i
-                                            class="fas fa-trash-alt fa-lg"></i></button>
                             </div>
                         </div>
+
                     </div>
+                    <% }); %>
+                    <% }else{ %>
+                    <p class="text-center" style="margin-top: 25%"> No wish list has been created yet. Please try
+                        creating a
+                        wish list.</p>
+                    <% } %>
 
-                </div>
-                <% }); %>
-                <% }else{ %>
-                <p class="text-center" style="margin-top: 25%"> No wish list has been created yet. Please try creating a
-                    wish list.</p>
-                <% } %>
+                </script>
+                <script type="text/javascript">
+                    let userId = <?php echo $this->session->userdata('userId');?>;
+                    // Creating backbone model for Item
+                    let Item = Backbone.Model.extend({
+                        url: "<?php echo base_url('index.php/api/wishitem/item');?>",
+                        idAttribute: 'id',
+                        defaults: {
+                            "id": null,
+                            "w_id": null,
+                            "pr_id": null,
+                            "title": "",
+                            "price": null,
+                            "qty": null,
+                            "url": "",
+                            "img_url": "",
+                            "pr_name": "",
+                            "pr_level": "",
+                            "created_at": "",
+                            "updated_at": "",
+                        }
+                    });
+                    // Creating backbone collection for wishlist item
+                    let WishItemCollection = Backbone.Collection.extend({
+                        url: "<?php echo base_url('index.php/api/wishitem/item');?>",
+                        idAttribute: 'id',
+                        model: Item,
+                        comparator: function (item) {
+                            return item.get("pr_level");
+                        }
+                    });
+                    // Creating backbone model for User
+                    let User = Backbone.Model.extend({
+                        url: "<?php echo base_url('index.php/api/users/user');?>",
+                        idAttribute: 'id',
+                        defaults: {
+                            "id": null,
+                            "name": "",
+                            "email": "",
+                            "address": null,
+                            "tel": "",
+                            "created_at": "",
+                            "updated_at": ""
+                        }
+                    });
+                    // Creating backbone model for Wishlist
+                    let WishList = Backbone.Model.extend({
+                        url: "<?php echo base_url('index.php/api/wishlist/wishlist');?>",
+                        idAttribute: 'id',
+                        defaults: {
+                            "id": null,
+                            "u_id": "",
+                            "name": "",
+                            "occasion": "",
+                            "description": "",
+                            "img_url": "",
+                            "created_at": "",
+                            "updated_at": ""
+                        }
+                    });
+                    let Priority = Backbone.Model.extend({
+                        idAttribute: 'id',
+                        defaults: {
+                            "id": null,
+                            "name": "",
+                            "pr_level": "",
+                            "created_at": "",
+                            "updated_at": ""
+                        }
+                    });
+                    // Creating backbone collection for Priorities
+                    let Priorities = Backbone.Collection.extend({
+                        url: "<?php echo base_url('index.php/api/wishitem/priority');?>",
+                        idAttribute: 'id',
+                        model: Priority,
+                    });
+                    //Sign Out Model
+                    let SignOut = Backbone.Model.extend({
+                        url: "<?php echo base_url('index.php/api/authentication/logout');?>"
+                    });
+                    let user = new User();
+                    let wishList = new WishList();
+                    let wishListItems = new WishItemCollection();
+                    let priorities = new Priorities();
 
-            </script>
-            <script type="text/javascript">
-                let userId = <?php echo $this->session->userdata('userId');?>;
-                // Creating backbone model for Item
-                let Item = Backbone.Model.extend({
-                    url: "<?php echo base_url('index.php/api/wishitem/item');?>",
-                    idAttribute: 'id',
-                    defaults: {
-                        "id": null,
-                        "w_id": null,
-                        "pr_id": null,
-                        "title": "",
-                        "price": null,
-                        "qty": null,
-                        "url": "",
-                        "img_url": "",
-                        "pr_name": "",
-                        "pr_level": "",
-                        "created_at": "",
-                        "updated_at": "",
-                    }
-                });
-                // Creating backbone collection for wishlist item
-                let WishItemCollection = Backbone.Collection.extend({
-                    url: "<?php echo base_url('index.php/api/wishitem/item');?>",
-                    idAttribute: 'id',
-                    model: Item,
-                    comparator: function (item) {
-                        return item.get("pr_level");
-                    }
-                });
-                // Creating backbone model for User
-                let User = Backbone.Model.extend({
-                    url: "<?php echo base_url('index.php/api/users/user');?>",
-                    idAttribute: 'id',
-                    defaults: {
-                        "id": null,
-                        "name": "",
-                        "email": "",
-                        "address": null,
-                        "tel": "",
-                        "created_at": "",
-                        "updated_at": ""
-                    }
-                });
-                // Creating backbone model for Wishlist
-                let WishList = Backbone.Model.extend({
-                    url: "<?php echo base_url('index.php/api/wishlist/wishlist');?>",
-                    idAttribute: 'id',
-                    defaults: {
-                        "id": null,
-                        "u_id": "",
-                        "name": "",
-                        "occasion": "",
-                        "description": "",
-                        "img_url": "",
-                        "created_at": "",
-                        "updated_at": ""
-                    }
-                });
-                let Priority = Backbone.Model.extend({
-                    idAttribute: 'id',
-                    defaults: {
-                        "id": null,
-                        "name": "",
-                        "pr_level": "",
-                        "created_at": "",
-                        "updated_at": ""
-                    }
-                });
-                // Creating backbone collection for Priorities
-                let Priorities = Backbone.Collection.extend({
-                    url: "<?php echo base_url('index.php/api/wishitem/priority');?>",
-                    idAttribute: 'id',
-                    model: Priority,
-                });
-                //Sign Out Model
-                let SignOut = Backbone.Model.extend({
-                    url: "<?php echo base_url('index.php/api/authentication/logout');?>"
-                });
-                let user = new User();
-                let wishList = new WishList();
-                let wishListItems = new WishItemCollection();
-                let priorities = new Priorities();
+                    user.fetch({data: $.param({'id': userId})}, {async: false});
+                    wishList.fetch({async: false});
+                    wishListItems.fetch({async: false});
+                    priorities.fetch({async: false});
 
-                user.fetch({data: $.param({'id': userId})}, {async: false});
-                wishList.fetch({async: false});
-                wishListItems.fetch({async: false});
-                priorities.fetch({async: false});
+                    //    Views
+                    let ProfileView = Backbone.View.extend({
+                        el: '#profileView',
+                        initialize: function () {
+                            this.listenTo(this.model, 'change', this.render);
+                            this.model.fetch({data: $.param({'id': userId})}, {
+                                async: false,
+                                success: function (data, statusText) {
 
-                //    Views
-                let ProfileView = Backbone.View.extend({
-                    el: '#profileView',
-                    initialize: function () {
-                        this.listenTo(this.model, 'change', this.render);
-                        this.model.fetch({data: $.param({'id': userId})}, {
-                            async: false,
-                            success: function (data, statusText) {
+                                    console.log("success", statusText)
+                                },
+                                error: function (data, statusText) {
+                                }
+                            });
+                            this.render();
+                        },
+                        destroy: function () {
+                            this.undelegateEvents();
+                            this.$el.removeData().unbind();
+                            this.remove();
+                            this.$el.empty();
+                        },
+                        render: function () {
+                            $("#user_name").html(this.model.get('name'));
+                            $("#user_email").html(this.model.get('email'));
+                            $("#wishListCount").text(wishList.get('id') ? 1 : 0);
+                            $("#wishItemCount").text(wishListItems.length);
+                            $("#sharedListCount").text("testing");
+                        }
+                    });
 
-                                console.log("success", statusText)
-                            },
-                            error: function (data, statusText) {
-                            }
+                    let LeftView = Backbone.View.extend({
+                        el: '#profileView',
+                        template: _.template($("#leftViewTemplate").html()),
+                        initialize: function () {
+                            let self = this;
+                            this.listenTo(this.model, 'change sync', this.render);
+                            this.model.fetch({data: $.param({'id': userId})}, {
+                                async: false,
+                                success: function (data, statusText) {
+                                    self.render();
+                                },
+                                error: function (data, statusText) {
+                                    self.render();
+                                }
+                            });
+                        },
+                        render: function () {
+                            $(this.$el).html(this.template(this.model));
+                            $("#wishListCount").text(wishList.get('id') ? 1 : 0);
+                            $("#wishItemCount").text(wishListItems.length);
+                            $("#sharedListCount").text("testing");
+                            return this;
+                        }
+                    });
+
+                    let WishListView = Backbone.View.extend({
+                        el: '#wishListView',
+                        template: _.template($("#wishListTemplate").html()),
+                        initialize: function () {
+                            let self = this;
+                            this.listenTo(this.model, 'change sync', this.render);
+                            this.model.fetch({
+                                async: false,
+                                success: function (data, statusText) {
+                                    self.render();
+                                },
+                                error: function (data, statusText) {
+                                    self.render();
+                                }
+                            });
+                        },
+                        destroy: function () {
+                            this.remove(); // removes view from  dom
+                            this.unbind();
+                        },
+                        displayListDiv: function () {
+                            $('.hasWishlist').show();
+                            $("#hasNotWishList").hide();
+                        },
+                        displayNoListDiv: function () {
+                            $('.hasNotWishList').show();
+                            $('#hasWishlist').hide();
+                        },
+                        render: function () {
+                            $("#wishListCount").text(wishList.get('id') ? 1 : 0);
+                            $("#wishItemCount").text(wishListItems.length);
+                            $("#sharedListCount").text("testing");
+                            $(this.$el).html(this.template(this.model));
+                            wishList.has('id') ? this.displayListDiv() : this.displayNoListDiv()
+                            return this;
+                        },
+                        events: {
+                            'click #editListBtn': 'editList',
+                            'click #deleteListBtn': 'deleteList'
+                        },
+                        editList: function (item) {
+                            let id = $(item.currentTarget).data('id');
+                            updateList(id);
+                        },
+                        deleteList: function (item) {
+                            let id = $(item.currentTarget).data('id');
+                            deleteList(id);
+                        }
+                    });
+
+                    let WishItemView = Backbone.View.extend({
+                        el: '#wishListView',
+                        template: _.template($("#wishItemTemplate").html()),
+                        initialize: function () {
+                            let self = this;
+                            this.listenTo(this.collection, 'change remove reset sync', this.render);
+                            this.collection.fetch({
+                                async: false,
+                                success: function (data, statusText) {
+                                    self.render();
+                                },
+                                error: function (data, statusText) {
+                                    self.render();
+                                }
+                            });
+                        },
+                        render: function () {
+                            $("#wishListCount").text(wishList.get('id') ? 1 : 0);
+                            $("#wishItemCount").text(wishListItems.length);
+                            $("#sharedListCount").text("testing");
+                            $(this.$el).html(this.template(this.collection, wishList));
+                            return this;
+                        },
+                        events: {
+                            'click #editItemBtn': 'editItem',
+                            'click #deleteItemBtn': 'deleteItem'
+                        },
+                        editItem: function (item) {
+                            let id = $(item.currentTarget).data('id');
+                            updateItem(id);
+                        },
+                        deleteItem: function (item) {
+                            item.preventDefault();
+                            let id = $(item.currentTarget).data('id');
+                            deleteItem(id);
+                        }
+                    });
+                    let leftView = new LeftView({model: user});
+                    //Router
+                    let Router = Backbone.Router.extend({
+                        routes: {
+                            "": "showWishListView",
+                            "wishlist": "showWishItemView",
+                            "profile": "showProfileView",
+                            "shared-list": "showSharedView"
+                        },
+                        showWishListView: function () {
+                            new WishListView({model: wishList});
+                        },
+                        showWishItemView: function () {
+                            new WishItemView({collection: wishListItems});
+                        },
+                        showProfileView: function () {
+                            new ProfileView({model: user});
+                            console.log("profileView");
+                        },
+                        showSharedView: function () {
+                            console.log("sharedView");
+                        }
+                    });
+                    let router = new Router();
+                    Backbone.history.start();
+
+                    function updateItem(id) {
+                        let modelToEdit = new Item();
+                        modelToEdit = wishListItems.get(id);
+                        $('#editItemModal').find('input[name="editTitle"]').val(modelToEdit.get('title'));
+                        $('#editItemModal').find('input[name="editPrice"]').val(modelToEdit.get('price'));
+                        $('#editItemModal').find('input[name="editQuantity"]').val(modelToEdit.get('qty'));
+                        $('#editItemModal').find('input[name="editUrl"]').val(modelToEdit.get('url'));
+                        $('#editItemModal').find('input[name="editImg_url"]').val(modelToEdit.get('imgUrl'));
+                        $('#editPriorities').val(modelToEdit.get('pr_id'));
+                        $('#editPriorities').data(modelToEdit.get('pr_name'));
+                        $('#editPriorities').on('hidden.bs.modal', function (e) {
                         });
-                        this.render();
-                    },
-                    render: function () {
-                        $("#user_name").html(this.model.get('name'));
-                        $("#user_email").html(this.model.get('email'));
-                        $("#wishListCount").text(wishList.get('id') ? 1 : 0);
-                        $("#wishItemCount").text(wishListItems.length);
-                        $("#sharedListCount").text("testing");
-                    }
-                });
 
-                let WishListView = Backbone.View.extend({
-                    el: '#wishListView',
-                    template: _.template($("#wishListTemplate").html()),
-                    initialize: function () {
-                        let self = this;
-                        this.listenTo(this.model, 'change sync', this.render);
-                        this.model.fetch({
-                            async: false,
-                            success: function (data, statusText) {
-                                self.render();
-                            },
-                            error: function (data, statusText) {
-                                self.render();
-                            }
-                        });
-                    },
-                    displayListDiv: function (){
-                        $('.hasWishlist').show();
-                        $("#hasNotWishList").hide();
-                    },
-                    displayNoListDiv: function (){
-                        $('.hasNotWishList').show();
-                        $('#hasWishlist').hide();
-                    },
-                    render: function () {
-                        $("#wishListCount").text(wishList.get('id') ? 1 : 0);
-                        $("#wishItemCount").text(wishListItems.length);
-                        $("#sharedListCount").text("testing");
-                        $(this.$el).html(this.template(this.model));
-                        wishList.has('id') ? this.displayListDiv() : this.displayNoListDiv()
-                        return this;
-                    },
-                    events: {
-                        'click #editListBtn': 'editList',
-                        // 'click #deleteListBtn': 'deleteList'
-                    },
-                    editList: function (item) {
-                        let id = $(item.currentTarget).data('id');
-                        updateList(id);
+                        document.getElementById("updateItemBtn").onclick = function fun() {
+                            let title = $("#editItemModal").find('input[name="editTitle"]').val();
+                            let price = $("#editItemModal").find('input[name="editPrice"]').val();
+                            let quantity = $("#editItemModal").find('input[name="editQuantity"]').val();
+                            let url = $("#editItemModal").find('input[name="editUrl"]').val();
+                            let img_url = $("#editItemModal").find('input[name="editImg_url"]').val();
+                            let pr_id = $("#editPriorities option:selected").val();
+                            let pr_name = $("#editPriorities option:selected").data('name');
+                            let pr_level = $("#editPriorities option:selected").data('pr_level');
 
-                    },
-                    //deleteList: function (item) {
-                    //    let self = this;
-                    //    let id = $(item.currentTarget).data('id');
-                    //    let modelToDelete = wishList;
-                    //    if (modelToDelete) {
-                    //        if (confirm('Are you sure to delete this wish list? It will be deleted all' +
-                    //            ' the items & shared links on your wish list ')) {
-                    //            modelToDelete.destroy({
-                    //                async: false,
-                    //                url: "<?php //echo base_url('index.php/api/wishlist/wishlist/id/');?>//" + id,
-                    //                success: function (data, statusText) {
-                    //                    wishList.clear(modelToDelete);
-                    //                    self.render();
-                    //                },
-                    //                error: function (data, statusText) {
-                    //                    alert(statusText.responseJSON.message);
-                    //                }
-                    //            });
-                    //        }
-                    //    }
-                    //}
-                });
-
-                let WishItemView = Backbone.View.extend({
-                    el: '#wishListView',
-                    template: _.template($("#wishItemTemplate").html()),
-                    initialize: function () {
-                        let self = this;
-                        this.listenTo(this.collection, 'change sync', this.render);
-                        this.listenTo(this.collection, 'remove sync', this.render);
-                        this.collection.fetch({
-                            async: false,
-                            success: function (data, statusText) {
-                                self.render();
-                            },
-                            error: function (data, statusText) {
-                                self.render();
-                            }
-                        });
-                    },
-                    render: function () {
-                        $("#wishListCount").text(wishList.get('id') ? 1 : 0);
-                        $("#wishItemCount").text(wishListItems.length);
-                        $("#sharedListCount").text("testing");
-                        $(this.$el).html(this.template(this.collection, wishList));
-                        return this;
-                    },
-                    events: {
-                        'click #editItemBtn': 'editItem',
-                        'click #deleteItemBtn': 'deleteItem'
-                    },
-                    editItem: function (item) {
-                        let id = $(item.currentTarget).data('id');
-                        updateItem(id);
-                    },
-                    deleteItem: function (item) {
-                        let self = this;
-                        let id = $(item.currentTarget).data('id');
-                        let modelToDelete = wishListItems.get(id);
-                        if (modelToDelete) {
-                            if (confirm('Are you sure to delete this item?')) {
-                                modelToDelete.destroy({
+                            if (isEmpty(title) && isEmpty(price) && isEmpty(quantity) && isEmpty(url) && isEmpty(img_url)) {
+                                modelToEdit.set({
+                                    "id": id,
+                                    "pr_id": pr_id,
+                                    "pr_name": pr_name,
+                                    "pr_level": pr_level,
+                                    "title": title,
+                                    "price": price,
+                                    "qty": quantity,
+                                    "url": url,
+                                    "img_url": img_url,
+                                });
+                                modelToEdit.save(null, {
                                     async: false,
-                                    url: "<?php echo base_url('index.php/api/wishitem/item/id/');?>" + id,
                                     success: function (data, statusText) {
-                                        wishListItems.remove(modelToDelete);
+                                        wishListItems.add(modelToEdit);
+                                        wishListItems.sort();
+                                        $('#editItemModal').on('hidden.bs.modal', function (e) {
+                                            $('#editItemModal').find('input[name="editTitle"]').val('');
+                                            $('#editItemModal').find('input[name="editPrice"]').val('');
+                                            $('#editItemModal').find('input[name="editQuantity"]').val('');
+                                            $('#editItemModal').find('input[name="editUrl"]').val('');
+                                            $('#editItemModal').find('input[name="editImg_url"]').val('');
+                                        });
+                                        $('#editItemModal').modal('hide');
                                     },
                                     error: function (data, statusText) {
                                         alert(statusText.responseJSON.message);
                                     }
                                 });
+                            } else {
+                                alert("You must fill out all fields.");
                             }
                         }
                     }
-                });
-                new ProfileView({model: user});
-                //Router
-                let Router = Backbone.Router.extend({
-                    routes: {
-                        "": "showWishListView",
-                        "wishlist": "showWishItemView",
-                        "profile": "showProfileView",
-                        "shared-list": "showSharedView"
-                    },
-                    showWishListView: function () {
-                        new WishListView({model: wishList});
-                        console.log("createWishListView");
-                    },
-                    showWishItemView: function () {
-                        new WishItemView({collection: wishListItems});
-                        console.log("wishItemView");
-                    },
-                    showProfileView: function () {
-                        new ProfileView({model: user});
-                        console.log("profileView");
-                    },
-                    showSharedView: function () {
-                        console.log("sharedView");
+
+                    function deleteItem(id) {
+                        let modelToDelete = wishListItems.get(id);
+                        $('#confirmMessage').text('Are you sure to delete this item?');
+                        document.getElementById("confirmDeleteBtn").onclick = function fun() {
+                            modelToDelete.destroy({
+                                async: false,
+                                url: "<?php echo base_url('index.php/api/wishitem/item/id/');?>" + id,
+                                success: function (data, statusText) {
+                                    $('#confirm-modal').modal('hide');
+                                    wishListItems.remove(modelToDelete);
+
+                                },
+                                error: function (data, statusText) {
+                                    alert(statusText.responseJSON.message);
+                                }
+                            });
+                        }
                     }
-                });
-                let router = new Router();
-                Backbone.history.start();
 
-                function updateItem(id) {
-                    let modelToEdit = new Item();
-                    modelToEdit = wishListItems.get(id);
-                    $('#editItemModal').find('input[name="editTitle"]').val(modelToEdit.get('title'));
-                    $('#editItemModal').find('input[name="editPrice"]').val(modelToEdit.get('price'));
-                    $('#editItemModal').find('input[name="editQuantity"]').val(modelToEdit.get('qty'));
-                    $('#editItemModal').find('input[name="editUrl"]').val(modelToEdit.get('url'));
-                    $('#editItemModal').find('input[name="editImg_url"]').val(modelToEdit.get('imgUrl'));
-                    $('#editPriorities').val(modelToEdit.get('pr_id'));
-                    $('#editPriorities').data(modelToEdit.get('pr_name'));
-                    $('#editPriorities').on('hidden.bs.modal', function (e) {
-                    });
+                    function updateList(id) {
+                        let modelToEdit = wishList;
+                        $('#editListModal').find('input[name="edit_name"]').val(modelToEdit.get('name'));
+                        $('#editListModal').find('input[name="edit_occasion"]').val(modelToEdit.get('occasion'));
+                        $('textarea#edit_description').val(modelToEdit.get('description'));
 
-                    document.getElementById("updateItemBtn").onclick = function fun() {
-                        let title = $("#editItemModal").find('input[name="editTitle"]').val();
-                        let price = $("#editItemModal").find('input[name="editPrice"]').val();
-                        let quantity = $("#editItemModal").find('input[name="editQuantity"]').val();
-                        let url = $("#editItemModal").find('input[name="editUrl"]').val();
-                        let img_url = $("#editItemModal").find('input[name="editImg_url"]').val();
-                        let pr_id = $("#editPriorities option:selected").val();
-                        let pr_name = $("#editPriorities option:selected").data('name');
-                        let pr_level = $("#editPriorities option:selected").data('pr_level');
+                        document.getElementById("updateListBtn").onclick = function fun() {
+                            let name = $("#editListModal").find('input[name="edit_name"]').val();
+                            let occasion = $("#editListModal").find('input[name="edit_occasion"]').val();
+                            let description = $('textarea#edit_description').val();
+                            let img_url = $("#editListModal").find('input[name="edit_list_img_url"]').val();
 
-                        if (isEmpty(title) && isEmpty(price) && isEmpty(quantity) && isEmpty(url) && isEmpty(img_url)) {
-                            modelToEdit.set({
-                                "id": id,
-                                "pr_id": pr_id,
-                                "pr_name": pr_name,
-                                "pr_level": pr_level,
-                                "title": title,
-                                "price": price,
-                                "qty": quantity,
-                                "url": url,
+                            if (isEmpty(name) && isEmpty(occasion) && isEmpty(description)) {
+                                modelToEdit.set({
+                                    "id": id,
+                                    "name": name,
+                                    "occasion": occasion,
+                                    "description": description,
+                                    "img_url": img_url,
+                                });
+                                modelToEdit.save(null, {
+                                    async: false,
+                                    success: function (data, statusText) {
+                                        wishList.set({
+                                            "id": statusText.id,
+                                            "u_id": statusText.u_id,
+                                            "name": statusText.name,
+                                            "occasion": statusText.occasion,
+                                            "description": statusText.description,
+                                            "img_url": statusText.img_url,
+                                            "created_at": statusText.created_at,
+                                            "updated_at": statusText.updated_at
+                                        });
+                                        $('#editItemModal').on('hidden.bs.modal', function (e) {
+                                            $('#editListModal').find('input[name="edit_name"]').val(modelToEdit.get('name'));
+                                            $('#editListModal').find('input[name="edit_occasion"]').val(modelToEdit.get('occasion'));
+                                            $('#editListModal').find('input[name="edit_list_img_url"]').val(modelToEdit.get('img_url'));
+                                            $('textarea#edit_description').val(modelToEdit.get('description'));
+                                        });
+                                        $('#editListModal').modal('hide');
+                                    },
+                                    error: function (data, statusText) {
+                                        alert(statusText.responseJSON.message);
+                                    }
+                                });
+                            } else {
+                                alert("You must fill out all fields.");
+                            }
+                        }
+                    }
+
+                    function deleteList(id) {
+                        let modelToDelete = wishList;
+                        document.getElementById("confirmDeleteListBtn").onclick = function fun() {
+                            modelToDelete.destroy({
+                                async: false,
+                                url: "<?php echo base_url('index.php/api/wishlist/wishlist/id/');?>" + id,
+                                success: function (data, statusText) {
+                                    $('#confirm-modal-delete-list').modal('hide');
+                                    wishList.clear(modelToDelete);
+                                },
+                                error: function (data, statusText) {
+                                    alert(statusText.responseJSON.message);
+                                }
+                            });
+                        }
+                    }
+
+                    document.getElementById("addListBtn").onclick = function fun() {
+                        let list = new WishList();
+                        let name = $("#addListModal").find('input[name="name"]').val();
+                        let occasion = $("#addListModal").find('input[name="occasion"]').val();
+                        let description = $('textarea#description').val();
+                        let img_url = $("#addListModal").find('input[name="list_img_url"]').val();
+                        if (isEmpty(name) && isEmpty(occasion) && isEmpty(description)) {
+                            list.set({
+                                "name": name,
+                                "occasion": occasion,
+                                "description": description,
                                 "img_url": img_url,
                             });
-                            modelToEdit.save(null, {
+                            list.save({}, {
                                 async: false,
                                 success: function (data, statusText) {
-                                    wishListItems.add(modelToEdit);
-                                    wishListItems.sort();
-                                    $('#editItemModal').on('hidden.bs.modal', function (e) {
-                                        $('#editItemModal').find('input[name="editTitle"]').val('');
-                                        $('#editItemModal').find('input[name="editPrice"]').val('');
-                                        $('#editItemModal').find('input[name="editQuantity"]').val('');
-                                        $('#editItemModal').find('input[name="editUrl"]').val('');
-                                        $('#editItemModal').find('input[name="editImg_url"]').val('');
+                                    wishList.set({
+                                        "id": statusText.id,
+                                        "u_id": statusText.u_id,
+                                        "name": statusText.name,
+                                        "occasion": statusText.occasion,
+                                        "description": statusText.description,
+                                        "img_url": statusText.img_url,
+                                        "created_at": statusText.created_at,
+                                        "updated_at": statusText.updated_at
                                     });
-                                    $('#editItemModal').modal('hide');
+                                    $('#addListModal').on('hidden.bs.modal', function (e) {
+                                        $("#addListModal").find('input[name="name"]').val('');
+                                        $("#addListModal").find('input[name="occasion"]').val('');
+                                        $("#addListModal").find('input[name="list_img_url"]').val('');
+                                        $('textarea#description').val('');
+                                    });
+                                    $('#addListModal').modal('hide');
                                 },
                                 error: function (data, statusText) {
                                     alert(statusText.responseJSON.message);
@@ -634,91 +871,68 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             alert("You must fill out all fields.");
                         }
                     }
-                }
 
-                function updateList(id){
-                    console.log(id);
-                };
-
-                document.getElementById("deleteListBtn").onclick = function fun() {
-                    let modelToDelete = wishList;
-                    let id = modelToDelete.get('id');
-                    if (confirm('Are you sure to delete this wish list? It will be deleted all' +
-                        ' the items & shared links on your wish list ')) {
-                        modelToDelete.destroy({
-                            async: false,
-                            url: "<?php echo base_url('index.php/api/wishlist/wishlist/id/');?>" + id,
-                            success: function (data, statusText) {
-                                wishList.clear(modelToDelete);
-                            },
-                            error: function (data, statusText) {
-                                alert(statusText.responseJSON.message);
-                            }
-                        });
-                    }
-                }
-
-                document.getElementById("addItemBtn").onclick = function fun() {
-                    let item = new Item();
-                    let title = $("#myModal").find('input[name="title"]').val();
-                    let price = $("#myModal").find('input[name="price"]').val();
-                    let quantity = $("#myModal").find('input[name="quantity"]').val();
-                    let url = $("#myModal").find('input[name="url"]').val();
-                    let img_url = $("#myModal").find('input[name="img_url"]').val();
-                    let pr_name = $("#priorities option:selected").data('name');
-                    let pr_level = $("#priorities option:selected").data('pr_level');
-                    let pr_id = $("#priorities option:selected").val();
-                    if (isEmpty(title) && isEmpty(price) && isEmpty(quantity) && isEmpty(url)) {
-                        item.set({
-                            "pr_id": pr_id,
-                            "pr_name": pr_name,
-                            "pr_level": pr_level,
-                            "title": title,
-                            "price": price,
-                            "qty": quantity,
-                            "url": url,
-                            "img_url": img_url,
-                        })
-                        item.save({}, {
-                            async: false,
-                            success: function (data, statusText) {
-                                wishListItems.add(item);
-                                wishListItems.sort();
-                                $('#myModal').on('hidden.bs.modal', function (e) {
-                                    $("#myModal").find('input[name="title"]').val('');
-                                    $("#myModal").find('input[name="price"]').val('');
-                                    $("#myModal").find('input[name="quantity"]').val('');
-                                    $("#myModal").find('input[name="url"]').val('');
-                                    $("#myModal").find('input[name="img_url"]').val('');
-                                });
-                                $('#myModal').modal('hide');
-                            },
-                            error: function (data, statusText) {
-                                alert(statusText.responseJSON.message);
-                            }
-                        });
-                    } else {
-                        alert("You must fill out all fields.");
-                    }
-                }
-
-                function signOut() {
-                    let signOut = new SignOut();
-                    signOut.save({}, {
-                        async: false,
-                        success: function (data, statusText) {
-                            window.location = "<?php echo base_url('index.php/Login');?>"
-                        },
-                        error: function (data, statusText) {
-                            alert(statusText.responseJSON.message);
+                    document.getElementById("addItemBtn").onclick = function fun() {
+                        let item = new Item();
+                        let title = $("#myModal").find('input[name="title"]').val();
+                        let price = $("#myModal").find('input[name="price"]').val();
+                        let quantity = $("#myModal").find('input[name="quantity"]').val();
+                        let url = $("#myModal").find('input[name="url"]').val();
+                        let img_url = $("#myModal").find('input[name="img_url"]').val();
+                        let pr_name = $("#priorities option:selected").data('name');
+                        let pr_level = $("#priorities option:selected").data('pr_level');
+                        let pr_id = $("#priorities option:selected").val();
+                        if (isEmpty(title) && isEmpty(price) && isEmpty(quantity) && isEmpty(url)) {
+                            item.set({
+                                "pr_id": pr_id,
+                                "pr_name": pr_name,
+                                "pr_level": pr_level,
+                                "title": title,
+                                "price": price,
+                                "qty": quantity,
+                                "url": url,
+                                "img_url": img_url,
+                            })
+                            item.save({}, {
+                                async: false,
+                                success: function (data, statusText) {
+                                    wishListItems.add(item);
+                                    wishListItems.sort();
+                                    $('#myModal').on('hidden.bs.modal', function (e) {
+                                        $("#myModal").find('input[name="title"]').val('');
+                                        $("#myModal").find('input[name="price"]').val('');
+                                        $("#myModal").find('input[name="quantity"]').val('');
+                                        $("#myModal").find('input[name="url"]').val('');
+                                        $("#myModal").find('input[name="img_url"]').val('');
+                                    });
+                                    $('#myModal').modal('hide');
+                                },
+                                error: function (data, statusText) {
+                                    alert(statusText.responseJSON.message);
+                                }
+                            });
+                        } else {
+                            alert("You must fill out all fields.");
                         }
-                    });
-                }
+                    }
 
-                function isEmpty(value) {
-                    return !(value == null || value === '');
-                }
+                    function signOut() {
+                        let signOut = new SignOut();
+                        signOut.save({}, {
+                            async: false,
+                            success: function (data, statusText) {
+                                window.location = "<?php echo base_url('index.php/Login');?>"
+                            },
+                            error: function (data, statusText) {
+                                alert(statusText.responseJSON.message);
+                            }
+                        });
+                    }
 
-            </script>
+                    function isEmpty(value) {
+                        return !(value == null || value === '');
+                    }
+
+                </script>
     </body>
 </html>
