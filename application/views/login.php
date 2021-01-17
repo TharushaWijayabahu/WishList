@@ -108,7 +108,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             userEntry.save({},{
                                 async: false,
                                 success: function (data, statusText) {
-                                    window.location.href = '/2017296/WishList';
+                                    window.location.href = "<?php echo base_url();?>";
                                 },
                                 error:function (data, statusText) {
                                     $("#login_alert").html(statusText.responseJSON.message);

@@ -324,6 +324,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </script>
 
             <script id="wishListTemplate" type="text/html">
+                <div>
+                    <h3 class="text-center">MY WISH LIST</h3>
+                </div>
                 <div class="hasNotWishList" id="hasNotWishList">
                     <div class="text-center" style="margin-bottom: 2%; margin-top: 2%">
                         <button type="button" class="btn btn-success" data-toggle="modal"
@@ -338,7 +341,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div id="hasWishlist" class="hasWishlist">
                     <div class="cart-item d-md-flex justify-content-between">
                         <div class="px-3 my-3">
-                            <a target="_blank" class="item-item-product" href=" ">
+                            <a class="item-item-product" href="#wishlist">
                                 <div class="cart-item-product-thumb">
                                     <img id="itemImg" src="<%= this.model.get('img_url') %>" alt="Product">
                                 </div>
