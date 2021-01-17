@@ -64,7 +64,7 @@ class ShareLink extends \Restserver\Libraries\REST_Controller {
     }
 
     public function link_get(){
-        $userId = $this->get('user_id');
+        $userId = $this->session->userdata('userId');
 
         if ($userId === NULL || $userId === "") {
             $this->response([
