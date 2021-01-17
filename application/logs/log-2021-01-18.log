@@ -1560,3 +1560,304 @@ DEBUG - 2021-01-18 03:48:37 --> UTF-8 Support Enabled
 DEBUG - 2021-01-18 03:48:37 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2021-01-18 03:48:37 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
 DEBUG - 2021-01-18 03:48:37 --> Total execution time: 0.0505
+DEBUG - 2021-01-18 03:50:10 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:50:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:50:10 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:50:10 --> Total execution time: 0.0438
+DEBUG - 2021-01-18 03:50:12 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:50:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:50:12 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:50:12 --> Total execution time: 0.0380
+DEBUG - 2021-01-18 03:50:24 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:50:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:50:24 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:50:24 --> Total execution time: 0.0454
+DEBUG - 2021-01-18 03:50:34 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:50:34 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2021-01-18 03:50:34 --> 404 Page Not Found: Sharelink/1001
+DEBUG - 2021-01-18 03:50:43 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:50:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:50:43 --> Total execution time: 0.0349
+DEBUG - 2021-01-18 03:50:44 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:50:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:50:44 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:50:44 --> Total execution time: 0.0584
+DEBUG - 2021-01-18 03:50:44 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:50:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:50:44 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:50:44 --> Total execution time: 0.0513
+DEBUG - 2021-01-18 03:50:44 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:50:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:50:44 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:50:44 --> Total execution time: 0.0686
+DEBUG - 2021-01-18 03:50:48 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:50:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:50:48 --> Total execution time: 0.0561
+DEBUG - 2021-01-18 03:50:48 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:50:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:50:48 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:50:48 --> Total execution time: 0.0383
+DEBUG - 2021-01-18 03:50:48 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:50:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:50:48 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:50:48 --> Total execution time: 0.0479
+DEBUG - 2021-01-18 03:50:48 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:50:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:50:48 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:50:48 --> Total execution time: 0.0457
+DEBUG - 2021-01-18 03:51:04 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:51:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:51:04 --> Total execution time: 0.0427
+DEBUG - 2021-01-18 03:51:04 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:51:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:51:04 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:51:04 --> Total execution time: 0.0484
+DEBUG - 2021-01-18 03:51:04 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:51:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:51:04 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:51:04 --> Total execution time: 0.0499
+DEBUG - 2021-01-18 03:51:04 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:51:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:51:04 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:51:04 --> Total execution time: 0.0309
+DEBUG - 2021-01-18 03:51:19 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:51:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:51:19 --> Total execution time: 0.0340
+DEBUG - 2021-01-18 03:51:19 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:51:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:51:19 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:51:19 --> Total execution time: 0.0574
+DEBUG - 2021-01-18 03:51:19 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:51:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:51:19 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:51:19 --> Total execution time: 0.0484
+DEBUG - 2021-01-18 03:51:19 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:51:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:51:19 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:51:19 --> Total execution time: 0.0496
+DEBUG - 2021-01-18 03:51:27 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:51:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:51:27 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:51:27 --> Total execution time: 0.0349
+DEBUG - 2021-01-18 03:51:30 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:51:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:51:30 --> Total execution time: 0.0490
+DEBUG - 2021-01-18 03:51:31 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:51:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:51:31 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:51:31 --> Total execution time: 0.0502
+DEBUG - 2021-01-18 03:51:31 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:51:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:51:31 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:51:31 --> Total execution time: 0.0610
+DEBUG - 2021-01-18 03:51:31 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:51:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:51:31 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:51:31 --> Total execution time: 0.0463
+DEBUG - 2021-01-18 03:53:29 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:53:29 --> No URI present. Default controller set.
+DEBUG - 2021-01-18 03:53:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:53:29 --> Total execution time: 0.0409
+DEBUG - 2021-01-18 03:53:30 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:53:30 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:53:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:53:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:53:30 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:53:30 --> Total execution time: 0.0454
+DEBUG - 2021-01-18 03:53:30 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:53:30 --> Total execution time: 0.0718
+DEBUG - 2021-01-18 03:53:30 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:53:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:53:30 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:53:30 --> Total execution time: 0.0450
+DEBUG - 2021-01-18 03:53:30 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:53:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:53:30 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:53:30 --> Total execution time: 0.0375
+DEBUG - 2021-01-18 03:53:30 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:53:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:53:30 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:53:30 --> Total execution time: 0.0567
+DEBUG - 2021-01-18 03:53:30 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:53:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:53:30 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:53:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:53:30 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:53:30 --> Total execution time: 0.0595
+DEBUG - 2021-01-18 03:53:30 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:53:30 --> Total execution time: 0.0533
+DEBUG - 2021-01-18 03:54:09 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:09 --> No URI present. Default controller set.
+DEBUG - 2021-01-18 03:54:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:09 --> Total execution time: 0.0603
+DEBUG - 2021-01-18 03:54:10 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:10 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:10 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:54:10 --> Total execution time: 0.0686
+DEBUG - 2021-01-18 03:54:10 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:54:10 --> Total execution time: 0.1040
+DEBUG - 2021-01-18 03:54:10 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:10 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:54:10 --> Total execution time: 0.0845
+DEBUG - 2021-01-18 03:54:10 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:10 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:54:10 --> Total execution time: 0.0604
+DEBUG - 2021-01-18 03:54:10 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:10 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:54:10 --> Total execution time: 0.0603
+DEBUG - 2021-01-18 03:54:10 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:10 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:10 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:54:10 --> Total execution time: 0.0695
+DEBUG - 2021-01-18 03:54:10 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:54:10 --> Total execution time: 0.0898
+DEBUG - 2021-01-18 03:54:24 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:24 --> No URI present. Default controller set.
+DEBUG - 2021-01-18 03:54:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:24 --> Total execution time: 0.0464
+DEBUG - 2021-01-18 03:54:24 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:24 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:24 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:54:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:24 --> Total execution time: 0.0694
+DEBUG - 2021-01-18 03:54:24 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:24 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:54:24 --> Total execution time: 0.1132
+DEBUG - 2021-01-18 03:54:24 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:54:24 --> Total execution time: 0.0579
+DEBUG - 2021-01-18 03:54:24 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:24 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:54:24 --> Total execution time: 0.0552
+DEBUG - 2021-01-18 03:54:24 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:24 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:54:25 --> Total execution time: 0.0711
+DEBUG - 2021-01-18 03:54:25 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:25 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:54:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:54:25 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:54:25 --> Total execution time: 0.0544
+DEBUG - 2021-01-18 03:54:25 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:54:25 --> Total execution time: 0.0576
+DEBUG - 2021-01-18 03:55:34 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:34 --> No URI present. Default controller set.
+DEBUG - 2021-01-18 03:55:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:34 --> Total execution time: 0.0528
+DEBUG - 2021-01-18 03:55:34 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:34 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:34 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:55:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:34 --> Total execution time: 0.0692
+DEBUG - 2021-01-18 03:55:34 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:55:34 --> Total execution time: 0.0550
+DEBUG - 2021-01-18 03:55:34 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:34 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:55:34 --> Total execution time: 0.0514
+DEBUG - 2021-01-18 03:55:34 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:34 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:55:34 --> Total execution time: 0.0518
+DEBUG - 2021-01-18 03:55:34 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:34 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:55:34 --> Total execution time: 0.0506
+DEBUG - 2021-01-18 03:55:34 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:34 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:34 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:55:34 --> Total execution time: 0.0492
+DEBUG - 2021-01-18 03:55:34 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:55:34 --> Total execution time: 0.0559
+DEBUG - 2021-01-18 03:55:53 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:53 --> No URI present. Default controller set.
+DEBUG - 2021-01-18 03:55:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:53 --> Total execution time: 0.0465
+DEBUG - 2021-01-18 03:55:54 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:54 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:54 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:55:54 --> Total execution time: 0.0537
+DEBUG - 2021-01-18 03:55:54 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:55:54 --> Total execution time: 0.0657
+DEBUG - 2021-01-18 03:55:54 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:54 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:55:54 --> Total execution time: 0.0539
+DEBUG - 2021-01-18 03:55:54 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:54 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:55:54 --> Total execution time: 0.0607
+DEBUG - 2021-01-18 03:55:54 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:54 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:55:54 --> Total execution time: 0.0604
+DEBUG - 2021-01-18 03:55:54 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:54 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:55:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:55:54 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:55:54 --> Total execution time: 0.0547
+DEBUG - 2021-01-18 03:55:54 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:55:54 --> Total execution time: 0.0732
+DEBUG - 2021-01-18 03:56:10 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:56:10 --> No URI present. Default controller set.
+DEBUG - 2021-01-18 03:56:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:56:10 --> Total execution time: 0.0486
+DEBUG - 2021-01-18 03:56:10 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:56:10 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:56:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:56:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:56:10 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:56:10 --> Total execution time: 0.0559
+DEBUG - 2021-01-18 03:56:10 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:56:10 --> Total execution time: 0.0665
+DEBUG - 2021-01-18 03:56:10 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:56:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:56:10 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:56:10 --> Total execution time: 0.0516
+DEBUG - 2021-01-18 03:56:10 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:56:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:56:10 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:56:10 --> Total execution time: 0.0417
+DEBUG - 2021-01-18 03:56:10 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:56:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:56:11 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:56:11 --> Total execution time: 0.0538
+DEBUG - 2021-01-18 03:56:11 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:56:11 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:56:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:56:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:56:11 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:56:11 --> Total execution time: 0.0516
+DEBUG - 2021-01-18 03:56:11 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:56:11 --> Total execution time: 0.0509
+DEBUG - 2021-01-18 03:57:53 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:57:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:57:53 --> Total execution time: 0.0308
+DEBUG - 2021-01-18 03:57:54 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:57:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:57:54 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:57:54 --> Total execution time: 0.0477
+DEBUG - 2021-01-18 03:57:54 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:57:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:57:54 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:57:54 --> Total execution time: 0.0376
+DEBUG - 2021-01-18 03:57:54 --> UTF-8 Support Enabled
+DEBUG - 2021-01-18 03:57:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-01-18 03:57:54 --> Config file loaded: C:\xampp\htdocs\2017296\WishList\application\config/rest.php
+DEBUG - 2021-01-18 03:57:54 --> Total execution time: 0.0513

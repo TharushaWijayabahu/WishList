@@ -325,9 +325,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="author-card pb-3">
                     <div class="author-card-cover"
                          style="background-image: url(<?php echo base_url('assets/img/cover.jpg') ?>);"><a
-                                class="btn btn-style-1 btn-white btn-sm" href="#" data-toggle="tooltip" title=""
-                                data-original-title="You currently have 290 Reward points to spend"><i
-                                    class="fa fa-award text-md"></i>&nbsp;290 points</a></div>
+                                class="btn btn-style-1 btn-white btn-sm" href="#" data-toggle="tooltip" title="">
+                        </a>
+                    </div>
                     <div class="author-card-profile">
                         <div class="author-card-avatar"><img
                                     src="<?php echo base_url('assets/img/profile-pic-1.png') ?>" alt="Daniel Adams">
@@ -358,14 +358,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             </div>
                         </a><a class="list-group-item" href="#profile">
                             <i class="fa fa-user text-muted"></i>Profile </a>
-                        <a class="list-group-item" href="#shared-list">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div><i class="fa fa-heart mr-1 text-muted"></i>
-                                    <div class="d-inline-block font-weight-medium text-uppercase">Shared List</div>
-                                </div>
-                                <span class="badge badge-secondary" id="sharedListCount"></span>
-                            </div>
-                        </a>
                         <a class="list-group-item" href="#" onclick="signOut(); return false;">
                             <i class="fas fa-sign-out-alt fa-rotate-180 text-muted"></i>
                             SignOut
