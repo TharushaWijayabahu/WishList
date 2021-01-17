@@ -74,7 +74,7 @@ class WishItem extends \Restserver\Libraries\REST_Controller {
         if (!$this->isEmpty($prId) && !$this->isEmpty($title) &&
             !$this->isEmpty($price) && !$this->isEmpty($qty) && !$this->isEmpty($url)) {
             if(!$this->isImage($imgUrl)){
-                $imgUrl = "assets/img/present.jpg";
+                $imgUrl = base_url("assets/img/present.jpg");;
             }
 
             $result = $this->WishItemModel->createItem($uId, $prId, $title, $price, $qty, $url, $imgUrl);
@@ -107,7 +107,7 @@ class WishItem extends \Restserver\Libraries\REST_Controller {
         }else{
             $imgUrl = $this->put('img_url');
             if(!$this->isImage($imgUrl)){
-                $imgUrl = "assets/img/present.jpg";
+                $imgUrl = base_url("assets/img/present.jpg");
             }
             $data = [
                 'title' => $this->put('title'),

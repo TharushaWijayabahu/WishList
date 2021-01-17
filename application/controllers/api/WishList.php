@@ -23,7 +23,7 @@ class WishList extends \Restserver\Libraries\REST_Controller {
 
         if (!$this->isEmpty($name) && !$this->isEmpty($occasion) && !$this->isEmpty($description)) {
             if(!$this->isImage($imgUrl)){
-                $imgUrl = "assets/img/wishlist.png";
+                $imgUrl = base_url("assets/img/wishlist.png");
             }
             $data = [
                 'u_id' => $this->session->userdata('userId'),
@@ -116,7 +116,7 @@ class WishList extends \Restserver\Libraries\REST_Controller {
         $id = $this->put('id');
         $imgUrl = $this->put('img_url');
         if(!$this->isImage($imgUrl)){
-            $imgUrl = "assets/img/wishlist.png";
+            $imgUrl = base_url("assets/img/wishlist.png");
         }
         $data = [
             'name' => $this->put('name'),
