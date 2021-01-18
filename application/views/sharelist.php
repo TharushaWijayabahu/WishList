@@ -9,10 +9,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/wishlist.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+        <nav class="navbar navbar-expand-lg header" id="myHeader">
+            <h2>Wish List</h2>
+        </nav>
     </head>
     <body>
-        <div class="container">
+        <div class="container body-container">
             <div id="wishListView"></div>
+        </div>
+        <div class="footer text-center">
+            &copy;
+            2020
+            <span>Wishlist.com</span>
         </div>
         <script src="<?php echo base_url(); ?>assets/js/jquery-3.5.1.min.js"></script>
         <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
