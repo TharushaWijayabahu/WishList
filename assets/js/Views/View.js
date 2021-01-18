@@ -12,17 +12,13 @@ let ProfileView = Backbone.View.extend({
             error: function (data, statusText) {
             }
         });
-    },
-    destroy: function () {
-        this.undelegateEvents();
-        this.$el.removeData().unbind();
-        this.remove();
-        this.$el.empty();
+        self.render();
     },
     render: function () {
         $(this.$el).html(this.template(this.model));
         $("#wishListCount").text(wishList.get('id') ? 1 : 0);
         $("#wishItemCount").text(wishListItems.length);
+        return this;
     }
 });
 

@@ -97,7 +97,7 @@ function deleteList(id) {
     document.getElementById("confirmDeleteListBtn").onclick = function fun() {
         modelToDelete.destroy({
             async: false,
-            url: url + 'index.php/api/wishlist/wishlist/id/' + id,
+            url: url + 'index.php/api/wishList/wishlist/id/' + id,
             success: function (data, statusText) {
                 $('#confirm-modal-delete-list').modal('hide');
                 wishList.clear(modelToDelete);
@@ -254,7 +254,7 @@ function deleteItem(id) {
     document.getElementById("confirmDeleteBtn").onclick = function fun() {
         modelToDelete.destroy({
             async: false,
-            url: url + 'index.php/api/wishitem/item/id/' + id,
+            url: url + 'index.php/api/wishItem/item/id/' + id,
             success: function (data, statusText) {
                 $('#confirm-modal').modal('hide');
                 wishListItems.remove(modelToDelete);
