@@ -19,7 +19,7 @@ class ShareListModel extends CI_Model {
         $this->db->insert('shared_link', $data);
         $id = $this->db->insert_id();
         if ($id > 0) {
-            $url = base_url('index.php/sharelist/shared') . $uID . '/' . $id;
+            $url = base_url('index.php/sharelist/shared/') . $uID . '/' . $id;
 
             $this->db->set('url', $url);
             $this->db->set('updated_at', date("Y-m-d h:m:s"));
