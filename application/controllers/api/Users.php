@@ -58,7 +58,7 @@ class Users extends \Restserver\Libraries\REST_Controller {
             $this->set_response($message, \Restserver\Libraries\REST_Controller::HTTP_FORBIDDEN);
         } else {
             if ($this->email_validation($email)) {
-                $result = $this->AuthenticationModel->registerUser($name, $email, $password, $address, $mobile);
+                $result = $this->UserModel->registerUser($name, $email, $password, $address, $mobile);
 
                 if ($result) {
                     $message = [
