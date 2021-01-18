@@ -33,7 +33,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <% }else{%>
             <div>
                 <h3 class="text-center">
-                    <%= list.get('name') %> (<%= list.get('occasion') %>)
+                    <%= list.get('name') %> (<%= list.get('occasion') %>) - <%= user.get('name') %>
                 </h3>
             </div>
             <div>

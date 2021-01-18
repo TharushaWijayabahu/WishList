@@ -771,6 +771,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 },
                 showWishItemView: function () {
                     new WishItemView({collection: wishListItems});
+                    shareLink.fetch({async: false});
                     document.getElementById("shareLinkBtn").onclick = function fun() {
                         let shareLinkItem = new ShareLink();
                         if (!shareLink.has('id')) {
