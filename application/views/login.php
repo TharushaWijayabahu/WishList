@@ -40,8 +40,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <span class="alert-danger" id="reg_alert" style="display: inline-block;text-align: center"></span>
                                 <span class="alert-success" id="reg_alert_success" style="display: inline-block;text-align: center"></span>
                                 <h2>Create an account</h2>
-                                <input type="text" name="user_name" id="user_name_reg" class="form-control"
-                                       placeholder="Name" required/>
+                                <input type="text" name="user_first_name" id="user_first_name_reg" class="form-control"
+                                       placeholder="First Name" required/>
+                                <input type="text" name="user_last_name" id="user_last_name_reg" class="form-control"
+                                       placeholder="Last Name" required/>
                                 <input type="email" name="user_email" id="user_email_reg" class="form-control"
                                        placeholder="Email Address" required/>
                                 <input type="password" name="user_password" id="user_password_reg" class="form-control"
@@ -143,16 +145,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 initialize: function() {
                     let self = this;
-
-                    this.name_reg = $("#user_name_reg");
+                    this.first_name_reg = $("#user_first_name_reg");
+                    this.last_name_reg = $("#user_last_name_reg");
                     this.email_reg = $("#user_email_reg");
                     this.password_reg = $("#user_password_reg");
                     this.address_reg = $("#user_address_reg");
                     this.mobile_reg = $("#user_mobile_reg");
-
-                    this.name_reg.change(function (e) {
-                        self.model.set({name_reg: $(e.currentTarget).val()});
-                    });
 
                     this.email_reg.change(function (e) {
                         self.model.set({email_reg: $(e.currentTarget).val()});
@@ -169,12 +167,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 },
 
                 register: function (){
-                    let name = this.model.get('name_reg');
+                    let fistName = $("#user_first_name_reg").val();
+                    let lstName = $("#user_last_name_reg").val();
+                    this.model.set({name_reg: fistName +" "+ lstName});
                     let email = this.model.get('email_reg');
                     let password = this.model.get('password_reg');
                     let address = this.model.get('address_reg');
                     let mobile = this.model.get('mobile_reg');
-                    if(isEmpty(name) && isEmpty(email) && isEmpty(password) && isEmpty(address) && isEmpty(mobile)){
+                    if(isEmpty(fistName) && isEmpty(lstName) && isEmpty(email) && isEmpty(password) && isEmpty(address) && isEmpty(mobile)){
                         newUserEntity.save({},{
                             async: false,
                             success: function (data, statusText) {
