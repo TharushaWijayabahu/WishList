@@ -1,17 +1,17 @@
 let ProfileView = Backbone.View.extend({
-    el: '#profileView',
+    el: '#wishListView',
+    template: _.template($("#profileViewTemplate").html()),
     initialize: function () {
+        let self = this;
         this.listenTo(this.model, 'change', this.render);
         this.model.fetch({data: $.param({'id': userId})}, {
             async: false,
             success: function (data, statusText) {
-
-                console.log("success", statusText)
+                self.render();
             },
             error: function (data, statusText) {
             }
         });
-        this.render();
     },
     destroy: function () {
         this.undelegateEvents();
@@ -20,11 +20,9 @@ let ProfileView = Backbone.View.extend({
         this.$el.empty();
     },
     render: function () {
-        $("#user_name").html(this.model.get('name'));
-        $("#user_email").html(this.model.get('email'));
+        $(this.$el).html(this.template(this.model));
         $("#wishListCount").text(wishList.get('id') ? 1 : 0);
         $("#wishItemCount").text(wishListItems.length);
-        $("#sharedListCount").text("testing");
     }
 });
 
@@ -48,7 +46,6 @@ let LeftView = Backbone.View.extend({
         $(this.$el).html(this.template(this.model));
         $("#wishListCount").text(wishList.get('id') ? 1 : 0);
         $("#wishItemCount").text(wishListItems.length);
-        $("#sharedListCount").text("testing");
         return this;
     }
 });
@@ -84,7 +81,6 @@ let WishListView = Backbone.View.extend({
     render: function () {
         $("#wishListCount").text(wishList.get('id') ? 1 : 0);
         $("#wishItemCount").text(wishListItems.length);
-        $("#sharedListCount").text("testing");
         $(this.$el).html(this.template(this.model));
         wishList.has('id') ? this.displayListDiv() : this.displayNoListDiv()
         return this;
@@ -138,7 +134,6 @@ let WishItemView = Backbone.View.extend({
     render: function () {
         $("#wishListCount").text(wishList.get('id') ? 1 : 0);
         $("#wishItemCount").text(wishListItems.length);
-        $("#sharedListCount").text("testing");
         $(this.$el).html(this.template(this.collection, wishList));
         wishList.has('id') ? this.displayListDiv() : this.displayNoListDiv()
         wishListItems.length === 0 ? this.displayNoItemView() : this.displayItemView()

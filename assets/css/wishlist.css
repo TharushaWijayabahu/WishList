@@ -712,3 +712,35 @@ a:hover{
     margin-top: 1%;
     margin-bottom: 4% !important;
 }
+.user-row {
+    margin-bottom: 14px;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid #ccc;
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+
+.panel {
+    margin-top: 0px;
+}
+.panel-primary>.panel-heading {
+    font-weight: bold;
+    padding: 1%;
+    color: #fff;
+    background-color: #830808;
+    border-color: #337ab7;
+}
+.profile-card{
+    position: relative;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 12px 20px 1px rgba(64, 64, 64, .09);
+}

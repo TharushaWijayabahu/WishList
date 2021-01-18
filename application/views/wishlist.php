@@ -324,7 +324,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <script src="<?php echo base_url(); ?>assets/js/jquery-3.5.1.min.js"></script>
         <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
         <script src="<?php echo base_url(); ?>assets/js/underscore-min.js"></script>
-        <!--            <script src="--><?php //echo base_url(); ?><!--assets/js/backbone-min.js"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.0/backbone-min.js"></script>
 
         <script id="leftViewTemplate" type="text/html">
@@ -492,6 +491,37 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     wish list.</p>
             </div>
         </script>
+        <script type="text/html" id="profileViewTemplate">
+            <div class="profile-card">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><%= user.get('name') %></h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class=" col-md-9 col-lg-9 ">
+                                <table class="table table-user-information">
+                                    <tbody>
+                                        <tr>
+                                            <td>Address:</td>
+                                            <td><%= user.get('address') %></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Email:</td>
+                                            <td><%= user.get('email') %></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tel:</td>
+                                            <td><%= user.get('tel') %></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </script>
         <script src="<?php echo base_url(); ?>assets/js/config.js"></script>
         <script src="<?php echo base_url(); ?>assets/js/Models/Model.js"></script>
         <script src="<?php echo base_url(); ?>assets/js/Collections/Collection.js"></script>
@@ -518,8 +548,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 routes: {
                     "": "showWishListView",
                     "wishlist": "showWishItemView",
-                    "profile": "showProfileView",
-                    "shared-list": "showSharedView"
+                    "profile": "showProfileView"
                 },
                 showWishListView: function () {
                     new WishListView({model: wishList});
@@ -560,10 +589,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 },
                 showProfileView: function () {
                     new ProfileView({model: user});
-                    console.log("profileView");
-                },
-                showSharedView: function () {
-                    console.log("sharedView");
                 }
             });
             let router = new Router();
