@@ -94,7 +94,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             });
             // Creating backbone collection for wishlist item
             let WishItemCollection = Backbone.Collection.extend({
-                url: "<?php echo base_url('index.php/api/sharelistpublic/list');?>?id=" + id,
+                url: "<?php echo base_url('index.php/api/shareListPublic/list');?>?id=" + id,
                 idAttribute: 'id',
                 model: Item,
                 comparator: function (item) {
@@ -103,7 +103,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             });
 
             let User = Backbone.Model.extend({
-                url: "<?php echo base_url('index.php/api/sharelistpublic/user');?>?id=" + id,
+                url: "<?php echo base_url('index.php/api/shareListPublic/user');?>?id=" + id,
                 idAttribute: 'id',
                 defaults: {
                     "name": ""
@@ -111,7 +111,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             });
 
             let List = Backbone.Model.extend({
-                url: "<?php echo base_url('index.php/api/sharelistpublic/wishlist');?>?id=" + id,
+                url: "<?php echo base_url('index.php/api/shareListPublic/wishlist');?>?id=" + id,
                 idAttribute: 'id',
                 defaults: {
                     "name": "",

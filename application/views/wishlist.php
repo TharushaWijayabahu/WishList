@@ -496,7 +496,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             let userId = <?php echo $this->session->userdata('userId');?>;
             // Creating backbone model for Item
             let Item = Backbone.Model.extend({
-                url: "<?php echo base_url('index.php/api/wishitem/item');?>",
+                url: "<?php echo base_url('index.php/api/wishItem/item');?>",
                 idAttribute: 'id',
                 defaults: {
                     "id": null,
@@ -515,7 +515,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             });
             // Creating backbone collection for wishlist item
             let WishItemCollection = Backbone.Collection.extend({
-                url: "<?php echo base_url('index.php/api/wishitem/item');?>",
+                url: "<?php echo base_url('index.php/api/wishItem/item');?>",
                 idAttribute: 'id',
                 model: Item,
                 comparator: function (item) {
@@ -538,7 +538,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             });
             // Creating backbone model for Wishlist
             let WishList = Backbone.Model.extend({
-                url: "<?php echo base_url('index.php/api/wishlist/wishlist');?>",
+                url: "<?php echo base_url('index.php/api/wishList/wishlist');?>",
                 idAttribute: 'id',
                 defaults: {
                     "id": null,
@@ -563,7 +563,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             });
             let ShareLink = Backbone.Model.extend({
                 idAttribute: 'id',
-                url: "<?php echo base_url('index.php/api/sharelink/link');?>",
+                url: "<?php echo base_url('index.php/api/shareLink/link');?>",
                 defaults: {
                     "id": null,
                     "u_id": "",
@@ -576,7 +576,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             });
             // Creating backbone collection for Priorities
             let Priorities = Backbone.Collection.extend({
-                url: "<?php echo base_url('index.php/api/wishitem/priority');?>",
+                url: "<?php echo base_url('index.php/api/wishItem/priority');?>",
                 idAttribute: 'id',
                 model: Priority,
             });
