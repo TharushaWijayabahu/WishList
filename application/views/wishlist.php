@@ -143,15 +143,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <div class="form-group">
                                     <select class="selectpicker form-control" id="priorities"
                                             data-live-search="true">
-<!--                                        <option value="1" data-name="Must-Have"-->
-<!--                                                data-pr_level="1" selected>Must-Have-->
-<!--                                        </option>-->
-<!--                                        <option value="2" data-name="Would be Nice to Have"-->
-<!--                                                data-pr_level="2">Would be Nice to Have-->
-<!--                                        </option>-->
-<!--                                        <option value="3" data-name="If possible"-->
-<!--                                                data-pr_level="3">If possible-->
-<!--                                        </option>-->
                                     </select>
 
                                 </div>
@@ -205,15 +196,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <div class="form-group">
                                     <select class="selectpicker form-control" id="editPriorities"
                                             data-live-search="true">
-<!--                                        <option value="1" data-name="Must-Have"-->
-<!--                                                data-pr_level="1" selected>Must-Have-->
-<!--                                        </option>-->
-<!--                                        <option value="2" data-name="Would be Nice to Have"-->
-<!--                                                data-pr_level="2">Would be Nice to Have-->
-<!--                                        </option>-->
-<!--                                        <option value="3" data-name="If possible"-->
-<!--                                                data-pr_level="3">If possible-->
-<!--                                        </option>-->
                                     </select>
                                 </div>
                                 <div class="form-group">

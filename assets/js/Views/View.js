@@ -151,7 +151,7 @@ let PriorityView = Backbone.View.extend({
     render: function () {
         let html = "";
         this.collection.each(function (priority) {
-            html += '<option value="' + priority.get('id') + ' " data-name="'+ priority.get('name') +'" data-pr_level="'+ priority.get('pr_level') +'">'+ priority.get('name') +'</option>'
+            html += '<option value="' + priority.get('id') + '" data-name="'+ priority.get('name') +'" data-pr_level="'+ priority.get('pr_level') +'">'+ priority.get('name') +'</option>'
         });
         this.$el.html(html);
     }
@@ -166,7 +166,7 @@ let PriorityViewEdit = Backbone.View.extend({
     render: function () {
         let html = "";
         this.collection.each(function (priority) {
-            html += '<option value="' + priority.get('id') + ' " data-name="'+ priority.get('name') +'" data-pr_level="'+ priority.get('pr_level') +'">'+ priority.get('name') +'</option>'
+            html += '<option value="' + priority.get('id') + '" data-name="'+ priority.get('name') +'" data-pr_level="'+ priority.get('pr_level') +'">'+ priority.get('name') +'</option>'
         });
         this.$el.html(html);
     }

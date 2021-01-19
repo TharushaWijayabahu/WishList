@@ -45,6 +45,7 @@ function updateList(id) {
     let modelToEdit = wishList;
     $('#editListModal').find('input[name="edit_name"]').val(modelToEdit.get('name'));
     $('#editListModal').find('input[name="edit_occasion"]').val(modelToEdit.get('occasion'));
+    $('#editListModal').find('input[name="edit_list_img_url"]').val(modelToEdit.get('img_url'));
     $('textarea#edit_description').val(modelToEdit.get('description'));
 
     document.getElementById("updateListBtn").onclick = function fun() {
@@ -197,6 +198,7 @@ function updateItem(id) {
     $('#editItemModal').find('input[name="editQuantity"]').val(modelToEdit.get('qty'));
     $('#editItemModal').find('input[name="editUrl"]').val(modelToEdit.get('url'));
     $('#editItemModal').find('input[name="editImg_url"]').val(modelToEdit.get('img_url'));
+    $('#editPriorities ').val(modelToEdit.get('pr_id')).prop('selected', true);
 
     document.getElementById("updateItemBtn").onclick = function fun() {
         let title = $("#editItemModal").find('input[name="editTitle"]').val();
