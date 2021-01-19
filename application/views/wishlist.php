@@ -236,12 +236,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                     </div>
                                 </div>
                                 <div class="col-md-8 icon-container2 d-flex">
-                                    <div type="button" onclick="" class="smd"><i
-                                                class="img-thumbnail fab fa-whatsapp fa-2x"
-                                                style="color: #25D366;background-color: #cef5dc;"></i>
-                                        <p>Whatsapp</p>
-                                    </div>
-                                    <div type="button" onclick="" class="smd"><i
+                                    <div type="button" onclick="location.href='mailto:'" class="smd"><i
                                                 class="img-thumbnail far fa-envelope fa-2x"
                                                 style="color:#4c6ef5;background-color: aliceblue"></i>
                                         <p>E-mail</p>
