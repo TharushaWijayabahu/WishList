@@ -13,14 +13,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <section>
             <div class="container">
                 <div class="user signinBx" id = "login">
-                    <div class="imgBx"><img src="https://raw.githubusercontent.com/WoojinFive/CSS_Playground/master/Responsive%20Login%20and%20Registration%20Form/img1.jpg" alt="" /></div>
+                    <div class="imgBx"><img src="<?php echo base_url('assets/img/img_1.jpg')?>" alt="" /></div>
                     <div class="formBx">
                         <form action="" method="post">
                             <div class="form-group">
                                 <span class="alert-danger" id="login_alert" style="display: inline-block;text-align: center"></span>
                                 <h2>Sign In</h2>
-                                <input type="text" name="user_email" id="user_email_login" class="form-control"
-                                       placeholder="Username"/>
+                                <input type="email" name="user_email" id="user_email_login" class="form-control"
+                                       placeholder="Email"/>
 
                                 <input type="password" name="user_password" id="user_password_login" class="form-control"
                                        placeholder="Password"/>
@@ -60,7 +60,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         </form>
                     </div>
-                    <div class="imgBx"><img src="https://raw.githubusercontent.com/WoojinFive/CSS_Playground/master/Responsive%20Login%20and%20Registration%20Form/img2.jpg" alt="" /></div>
+                    <div class="imgBx"><img src="<?php echo base_url('assets/img/img_2.jpg')?>" alt="" /></div>
                 </div>
             </div>
         </section>
