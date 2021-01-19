@@ -4,14 +4,6 @@ let ProfileView = Backbone.View.extend({
     initialize: function () {
         let self = this;
         this.listenTo(this.model, 'change', this.render);
-        this.model.fetch({data: $.param({'id': userId})}, {
-            async: false,
-            success: function (data, statusText) {
-                self.render();
-            },
-            error: function (data, statusText) {
-            }
-        });
         self.render();
     },
     render: function () {
@@ -149,3 +141,33 @@ let WishItemView = Backbone.View.extend({
         deleteItem(id);
     }
 });
+
+let PriorityView = Backbone.View.extend({
+    el: '#priorities',
+    initialize: function () {
+        this.listenTo(this.collection, 'change sync', this.render);
+        this.collection.fetch({async: false});
+    },
+    render: function () {
+        let html = "";
+        this.collection.each(function (priority) {
+            html += '<option value="' + priority.get('id') + ' " data-name="'+ priority.get('name') +'" data-pr_level="'+ priority.get('pr_level') +'">'+ priority.get('name') +'</option>'
+        });
+        this.$el.html(html);
+    }
+})
+
+let PriorityViewEdit = Backbone.View.extend({
+    el: '#editPriorities',
+    initialize: function () {
+        this.listenTo(this.collection, 'change sync', this.render);
+        this.collection.fetch({async: false});
+    },
+    render: function () {
+        let html = "";
+        this.collection.each(function (priority) {
+            html += '<option value="' + priority.get('id') + ' " data-name="'+ priority.get('name') +'" data-pr_level="'+ priority.get('pr_level') +'">'+ priority.get('name') +'</option>'
+        });
+        this.$el.html(html);
+    }
+})

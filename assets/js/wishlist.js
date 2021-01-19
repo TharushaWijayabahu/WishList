@@ -196,11 +196,7 @@ function updateItem(id) {
     $('#editItemModal').find('input[name="editPrice"]').val(modelToEdit.get('price'));
     $('#editItemModal').find('input[name="editQuantity"]').val(modelToEdit.get('qty'));
     $('#editItemModal').find('input[name="editUrl"]').val(modelToEdit.get('url'));
-    $('#editItemModal').find('input[name="editImg_url"]').val(modelToEdit.get('imgUrl'));
-    $('#editPriorities').val(modelToEdit.get('pr_id'));
-    $('#editPriorities').data(modelToEdit.get('pr_name'));
-    $('#editPriorities').on('hidden.bs.modal', function (e) {
-    });
+    $('#editItemModal').find('input[name="editImg_url"]').val(modelToEdit.get('img_url'));
 
     document.getElementById("updateItemBtn").onclick = function fun() {
         let title = $("#editItemModal").find('input[name="editTitle"]').val();

@@ -143,15 +143,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <div class="form-group">
                                     <select class="selectpicker form-control" id="priorities"
                                             data-live-search="true">
-                                        <option value="1" data-name="Must-Have"
-                                                data-pr_level="1" selected>Must-Have
-                                        </option>
-                                        <option value="2" data-name="Would be Nice to Have"
-                                                data-pr_level="2">Would be Nice to Have
-                                        </option>
-                                        <option value="3" data-name="If possible"
-                                                data-pr_level="3">If possible
-                                        </option>
+<!--                                        <option value="1" data-name="Must-Have"-->
+<!--                                                data-pr_level="1" selected>Must-Have-->
+<!--                                        </option>-->
+<!--                                        <option value="2" data-name="Would be Nice to Have"-->
+<!--                                                data-pr_level="2">Would be Nice to Have-->
+<!--                                        </option>-->
+<!--                                        <option value="3" data-name="If possible"-->
+<!--                                                data-pr_level="3">If possible-->
+<!--                                        </option>-->
                                     </select>
 
                                 </div>
@@ -205,15 +205,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <div class="form-group">
                                     <select class="selectpicker form-control" id="editPriorities"
                                             data-live-search="true">
-                                        <option value="1" data-name="Must-Have"
-                                                data-pr_level="1" selected>Must-Have
-                                        </option>
-                                        <option value="2" data-name="Would be Nice to Have"
-                                                data-pr_level="2">Would be Nice to Have
-                                        </option>
-                                        <option value="3" data-name="If possible"
-                                                data-pr_level="3">If possible
-                                        </option>
+<!--                                        <option value="1" data-name="Must-Have"-->
+<!--                                                data-pr_level="1" selected>Must-Have-->
+<!--                                        </option>-->
+<!--                                        <option value="2" data-name="Would be Nice to Have"-->
+<!--                                                data-pr_level="2">Would be Nice to Have-->
+<!--                                        </option>-->
+<!--                                        <option value="3" data-name="If possible"-->
+<!--                                                data-pr_level="3">If possible-->
+<!--                                        </option>-->
                                     </select>
                                 </div>
                                 <div class="form-group">
@@ -495,9 +495,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="profile-card">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title"><%= user.get('name') %></h3>
+                        <h3 class="text-center panel-title"><%= user.get('name') %></h3>
                     </div>
-                    <div class="panel-body">
+                    <div class="text-center panel-body">
                         <div class="row">
                             <div class=" col-md-9 col-lg-9 ">
                                 <table class="table table-user-information">
@@ -555,6 +555,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 },
                 showWishItemView: function () {
                     new WishItemView({collection: wishListItems});
+                    new PriorityView({collection: priorities})
+                    new PriorityViewEdit({collection: priorities})
                     shareLink.fetch({async: false});
                     document.getElementById("shareLinkBtn").onclick = function fun() {
                         let shareLinkItem = new ShareLink();
