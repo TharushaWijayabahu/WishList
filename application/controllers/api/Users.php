@@ -63,7 +63,7 @@ class Users extends \Restserver\Libraries\REST_Controller {
                 if ($result) {
                     $message = [
                         'status' => TRUE,
-                        'message' => 'Successfully Registered'
+                        'message' => 'Successfully Registered. You can sign in using the link below.'
                     ];
                     $this->set_response($message, \Restserver\Libraries\REST_Controller::HTTP_CREATED);
                 } else {
