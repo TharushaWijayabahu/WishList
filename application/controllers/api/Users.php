@@ -14,6 +14,9 @@ class Users extends \Restserver\Libraries\REST_Controller {
     }
 
     public function user_get() {
+        if (!$this->AuthenticationModel->isLoggedIn()) {
+            redirect('Login');
+        }
         $id = $this->get('id');
 
         if ($id === NULL || $id === "") {
